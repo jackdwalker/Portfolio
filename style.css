@@ -1,5 +1,5 @@
 html, body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -16,7 +16,7 @@ nav {
 }
   
 nav li {
-    color: #f7f7f7;
+    color: #fff;
     font-family: 'Work Sans', sans-serif;
     font-weight: 100;
     font-size: 24px;
@@ -31,39 +31,55 @@ main {
     z-index: 5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+/* footer {
+    background-color: #333;
+    padding: 30px 0;
+    text-transform: uppercase;
 }
 
-
-.imgcropper {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+footer .container {
+    margin: 40px 20px;
+    text-align: left;
 }
-
-.imgcropper img {
-    display: inline;
-    margin: 0 auto;
-}
-
-/* .kaomoji1 {
-    color: #efbfe8
-}
-
-.kaomoji2 {
-    color: #a6d9dc
+  
+footer .container p {
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    color: #fff
 } */
 
-nav a:link, a:visited, a:hover, a:active {
+.container {
+    max-width: 940px;
+    margin: 125px auto;
+    padding: 0px 10px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+    color: #333333;
+    opacity: 0.9;
+}
+
+nav a:link {
     color: #fff;
     text-decoration: none;
 }
 
-.container h1 {
-    letter-spacing: 5px;
+nav a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:active{
+    color: #fff;
+    text-decoration: none;
 }
 
 .container h3 {
@@ -78,32 +94,23 @@ nav a:link, a:visited, a:hover, a:active {
     white-space: nowrap;
 }
 
-.container h5, h6 {
+.container h5 {
     font-size: 18px;
     margin: auto, auto;
     white-space: nowrap;
 }
 
-.jumbotron {
-    background-image: url(./docs/Cover.jpg);
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.container h6 {
+    font-size: 18px;
+    margin: auto, auto;
+    white-space: nowrap;
 }
-
-.container {
-    min-height: 100%;
-    max-width: 940px;
-    margin: auto auto;
-    padding: 140px 10px;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 100;
-    font-size: 32px;
-    color: #333333;
-    opacity: 0.8;
+.jumbotron {
+    height: 712px;
+    background-image: url(./docs/Cover.jpg);
+    background-size: contain;
+    overflow: scroll;
+    background-repeat: no-repeat;
 }
 
 .btn-main {
@@ -120,7 +127,7 @@ nav a:link, a:visited, a:hover, a:active {
 }
 
 .btn-main:hover {
-    background-color: #f7f7f7;
+    background-color: #fff;
     color: #333;
 }
 
@@ -148,7 +155,7 @@ img.tumblr_resize {
     top: 30px;
 }
 
-img.github_resize {
+img.github_resize{
     max-width: 40%;
     max-height: 35%;
     position: absolute;
@@ -156,79 +163,46 @@ img.github_resize {
     top: 30px;  
 }
 
-
-.parallax {
-    text-align: center;
-    min-width: 100%;
-    margin: 90px auto 0;
+.flexmaster {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 2px;
 }
 
-.bg-img1, .bg-img2, .bg-img3, .bg-img4 { 
-    min-height: 600px;
-    opacity: 0.75;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+.flexmaster .box1 {
+    order: 1;
+    flex: 0 0 50%;
+    height: 600px;
+    background-image: url(./docs/gif1.gif);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg-img1 { 
-    background-image: url("docs/IMG1.jpg");
+.flexmaster .box2 {
+    order: 2;
+    flex: 0 0 50%;
+    height: 600px;
+    background-image: url(./docs/gif2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg-img2 { 
-    background-image: url("docs/IMG2.jpg");
+.flexmaster .box3 {
+    order: 3;
+    flex: 0 0 50%;
+    height: 600px;
+    background-image: url(./docs/gif4.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg-img3 { 
-    background-image: url("docs/IMG3.jpg");
+.flexmaster .box4 {
+    order: 4;
+    flex: 0 0 50%;
+    height: 600px;
+    background-image: url(./docs/gif3.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-.bg-img4 { 
-    background-image: url("docs/IMG4a.jpg");
-}
-
-.parallaxtitle {
-    display: inline-block;
-    background-color: transparent;
-    color: #f7f7f7;
-    border-bottom: 1px #f7f7f7 solid;
-    margin: 50px 0px;
-    font-family: 'Work Sans';
-    font-weight: 100;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-
-footer {
-    background-color: #333333;
-    position: absolute;
-    max-height: 80px;
-    width: 100%;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-footer .feet {
-    display: inline-block;
-    color: #f7f7f7;
-}
-  
-footer .feet span {
-    color: #f7f7f7;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 100;
-    font-size: 24px;
-}
-
-footer .feet .rightalign {
-    position: absolute;
-    right: 20px;
-    bottom: 0px;
-}
-
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
-    }
-  }
