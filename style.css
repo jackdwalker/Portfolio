@@ -1,0 +1,234 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+  
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+  
+nav li {
+    color: #f7f7f7;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    display: inline-block;
+    width: 120px;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    top: 90px;
+    z-index: 5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+
+.imgcropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imgcropper img {
+    display: inline;
+    margin: 0 auto;
+}
+
+/* .kaomoji1 {
+    color: #efbfe8
+}
+
+.kaomoji2 {
+    color: #a6d9dc
+} */
+
+nav a:link, a:visited, a:hover, a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container h1 {
+    letter-spacing: 5px;
+}
+
+.container h3 {
+    font-size: 24px;
+    margin: auto, auto;
+    white-space: nowrap;
+}
+
+.container h4 {
+    font-size: 20px;
+    margin: auto, auto;
+    white-space: nowrap;
+}
+
+.container h5, h6 {
+    font-size: 18px;
+    margin: auto, auto;
+    white-space: nowrap;
+}
+
+.jumbotron {
+    background-image: url(./docs/Cover.jpg);
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    min-height: 100%;
+    max-width: 940px;
+    margin: auto auto;
+    padding: 140px 10px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+    color: #333333;
+    opacity: 0.8;
+}
+
+.btn-main {
+    background-color: #333333;
+    opacity: 0.8;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-main:hover {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+img.twitter_resize {
+    max-width: 36%;
+    max-height: 36%;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+img.linkedin_resize {
+    max-width: 40%;
+    max-height: 35%;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+img.tumblr_resize {
+    max-width: 40%;
+    max-height: 35%;
+    position: absolute;
+    right: 165px;
+    top: 30px;
+}
+
+img.github_resize {
+    max-width: 40%;
+    max-height: 35%;
+    position: absolute;
+    right: 225px;
+    top: 30px;  
+}
+
+
+.parallax {
+    text-align: center;
+    min-width: 100%;
+    margin: 90px auto 0;
+}
+
+.bg-img1, .bg-img2, .bg-img3, .bg-img4 { 
+    min-height: 600px;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img1 { 
+    background-image: url("docs/IMG1.jpg");
+}
+
+.bg-img2 { 
+    background-image: url("docs/IMG2.jpg");
+}
+
+.bg-img3 { 
+    background-image: url("docs/IMG3.jpg");
+}
+
+.bg-img4 { 
+    background-image: url("docs/IMG4a.jpg");
+}
+
+.parallaxtitle {
+    display: inline-block;
+    background-color: transparent;
+    color: #f7f7f7;
+    border-bottom: 1px #f7f7f7 solid;
+    margin: 50px 0px;
+    font-family: 'Work Sans';
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+footer {
+    background-color: #333333;
+    position: absolute;
+    max-height: 80px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+footer .feet {
+    display: inline-block;
+    color: #f7f7f7;
+}
+  
+footer .feet span {
+    color: #f7f7f7;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+footer .feet .rightalign {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
