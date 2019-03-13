@@ -16,7 +16,7 @@ nav {
 }
   
 nav li {
-    color: #f7f7f7;
+    color: #fbeee4;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     font-size: 24px;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 nav a:link, a:visited, a:hover, a:active {
-    color: #fff;
+    color: #fbeee4;
     text-decoration: none;
 }
 
@@ -178,12 +178,12 @@ img.github_resize {
 }
 
 .bg-img3 { 
-    background-image: url("./docs/IMG11.jpg");
-}
-
-.bg-img4 { 
     background-image: url("./docs/IMG12.jpg");
 }
+
+/* .bg-img4 { 
+    background-image: url("./docs/IMG11.jpg");
+} */
 
 .parallaxtitle {
     display: inline-block;
@@ -200,7 +200,7 @@ img.github_resize {
 .parallaxtext {
     display: inline-block;
     background-color: transparent;
-    color: #f7f7f7;
+    color: #fbeee4;
     margin: 50px 0px;
     font-family: 'Work Sans';
     font-weight: 100;
@@ -218,11 +218,11 @@ footer {
 
 footer .feet {
     display: inline-block;
-    color: #f7f7f7;
+    color: #fbeee4;
 }
   
 footer .feet span {
-    color: #f7f7f7;
+    color: #fbeee4;
     font-family: 'Work Sans', sans-serif;
     font-weight: 100;
     font-size: 24px;
