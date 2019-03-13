@@ -4,7 +4,7 @@ html, body {
 }
 
 header {
-    background-color: #333333;
+    background-color: #000000;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -18,7 +18,7 @@ nav {
 nav li {
     color: #f7f7f7;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 24px;
     display: inline-block;
     width: 120px;
@@ -36,19 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.imgcropper {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.imgcropper img {
-    display: inline;
-    margin: 0 auto;
-}
-
 /* .kaomoji1 {
     color: #efbfe8
 }
@@ -62,30 +49,44 @@ nav a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+.imgcropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imgcropper img {
+    display: inline;
+    margin: 0 auto;
+}
+
 .container h1 {
     letter-spacing: 5px;
+    line-height: 50%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    color: #fbeee4;
+    opacity: 0.95;
 }
 
 .container h3 {
+    padding: 0px 0px 25px 0px;
+    line-height: 200%;
+    margin: auto, auto;
+    white-space: nowrap;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
     font-size: 24px;
-    margin: auto, auto;
-    white-space: nowrap;
-}
-
-.container h4 {
-    font-size: 20px;
-    margin: auto, auto;
-    white-space: nowrap;
-}
-
-.container h5, h6 {
-    font-size: 18px;
-    margin: auto, auto;
-    white-space: nowrap;
+    color: #fbeee4;
+    opacity: 0.95;
 }
 
 .jumbotron {
-    background-image: url(./docs/Cover.jpg);
+    padding: 225px 0px 0px 0px;
+    background-image: url(docs/IMG9.jpg);
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -96,20 +97,16 @@ nav a:link, a:visited, a:hover, a:active {
 .container {
     min-height: 100%;
     max-width: 940px;
+    padding: 0px 0px 250px 0px; 
     margin: auto auto;
-    padding: 140px 10px;
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 100;
-    font-size: 32px;
-    color: #333333;
-    opacity: 0.8;
 }
 
 .btn-main {
-    background-color: #333333;
-    opacity: 0.8;
-    color: #fff;
+    background-color: #000000;
+    margin: 0px 10px;
+    opacity: 1;
+    color: #fbeee4;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -120,8 +117,8 @@ nav a:link, a:visited, a:hover, a:active {
 }
 
 .btn-main:hover {
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: #fbeee4;
+    color: #000000;
 }
 
 img.twitter_resize {
@@ -173,19 +170,19 @@ img.github_resize {
 }
 
 .bg-img1 { 
-    background-image: url("docs/IMG1.jpg");
+    background-image: url("docs/IMG13.jpg");
 }
 
 .bg-img2 { 
-    background-image: url("docs/IMG2.jpg");
+    background-image: url("docs/IMG10.jpg");
 }
 
 .bg-img3 { 
-    background-image: url("docs/IMG3.jpg");
+    background-image: url("docs/IMG11.jpg");
 }
 
 .bg-img4 { 
-    background-image: url("docs/IMG4a.jpg");
+    background-image: url("docs/IMG12.jpg");
 }
 
 .parallaxtitle {
@@ -200,8 +197,18 @@ img.github_resize {
     letter-spacing: 10px;
 }
 
+.parallaxtext {
+    display: inline-block;
+    background-color: transparent;
+    color: #f7f7f7;
+    margin: 50px 0px;
+    font-family: 'Work Sans';
+    font-weight: 100;
+    font-size: 24px;
+}
+
 footer {
-    background-color: #333333;
+    background-color: #000000;
     position: absolute;
     max-height: 80px;
     width: 100%;
