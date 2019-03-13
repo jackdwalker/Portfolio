@@ -86,7 +86,7 @@ nav a:link, a:visited, a:hover, a:active {
 
 .jumbotron {
     padding: 225px 0px 0px 0px;
-    background-image: url(docs/IMG9.jpg);
+    background-image: url(./docs/IMG9.jpg);
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -170,19 +170,19 @@ img.github_resize {
 }
 
 .bg-img1 { 
-    background-image: url("docs/IMG13.jpg");
+    background-image: url("./docs/IMG13.jpg");
 }
 
 .bg-img2 { 
-    background-image: url("docs/IMG10.jpg");
+    background-image: url("./docs/IMG10.jpg");
 }
 
 .bg-img3 { 
-    background-image: url("docs/IMG11.jpg");
+    background-image: url("./docs/IMG11.jpg");
 }
 
 .bg-img4 { 
-    background-image: url("docs/IMG12.jpg");
+    background-image: url("./docs/IMG12.jpg");
 }
 
 .parallaxtitle {
