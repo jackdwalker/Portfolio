@@ -168,7 +168,8 @@ a.anchor {
 }
 
 .bg-img1, .bg-img2, .bg-img3, .bg-img4 { 
-    min-height: 600px;
+    min-height: 850px;
+    /* min-height: 600px; */
     opacity: 0.75;
     background-attachment: fixed;
     background-position: center;
