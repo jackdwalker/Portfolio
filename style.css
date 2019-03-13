@@ -50,8 +50,8 @@ nav a:link, a:visited, a:hover, a:active {
 }
 
 .imgcropper {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
