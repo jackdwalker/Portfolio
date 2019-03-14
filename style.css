@@ -108,6 +108,7 @@ nav a:link, a:visited, a:hover, a:active {
     padding: 16px 40px;
     text-decoration: none;
     text-transform: uppercase;
+    opacity: 0.95;
 }
 
 .btn-main:hover {
@@ -156,8 +157,6 @@ a.anchor {
 
 .bg-img1, .bg-img2, .bg-img3, .bg-img4 { 
     min-height: 850px;
-    /* min-height: 600px; */
-    opacity: 0.75;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -184,10 +183,6 @@ a.anchor {
     background-image: url("./docs/IMG12.jpg");
 }
 
-/* .bg-img4 { 
-    background-image: url("./docs/IMG11.jpg");
-} */
-
 .parallax {
     min-width: 100%;
     margin: 90px auto 0;
@@ -199,12 +194,12 @@ a.anchor {
     min-height: 850px;
     background-color: #000000;
     width: 50%;
-    opacity: 0.75;
+    opacity: 0.5;
     transition: 0.75s;
 }
 
 .parallaxbox:hover {
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 .parallaxtitle {
