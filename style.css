@@ -14,14 +14,20 @@ nav {
     margin: 0;
     padding: 20px 0;
 }
+
+nav ul {
+    padding-left: 20px;
+}
   
 nav li {
+    text-align: center;
     color: #fbeee4;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     font-size: 24px;
     display: inline-block;
     width: 120px;
+    margin: auto 0;
 }
 
 main {
@@ -64,9 +70,9 @@ nav a:link, a:visited, a:hover, a:active {
 
 .container h1 {
     width: 950px;
-    margin: 0px auto 50px;
+    margin: 0px auto 25px;
     padding: 40px 0px;
-    letter-spacing: 10px;
+    letter-spacing: 40px;
     line-height: 50%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
@@ -74,7 +80,7 @@ nav a:link, a:visited, a:hover, a:active {
     color: #fbeee4;
     opacity: 0.95;
     background-color: #000000;
-    border: 1px solid #fbeee4;
+    /* border: 1px solid #fbeee4; */
 }
 
 .container h3 {
