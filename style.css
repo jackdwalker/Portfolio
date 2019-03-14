@@ -36,56 +36,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* .kaomoji1 {
-    color: #efbfe8
+.kaomoji1 {
+    color: #f4d0fd;
+    text-shadow: 0px 0px 25px #ed73e1;
 }
 
 .kaomoji2 {
-    color: #a6d9dc
-} */
+    color: #c7fcfd;
+    text-shadow: 0px 0px 25px #35d0f0;
+}
 
 nav a:link, a:visited, a:hover, a:active {
     color: #fbeee4;
     text-decoration: none;
 }
 
-.imgcropper {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.imgcropper img {
-    display: inline;
-    margin: 0 auto;
-}
-
 .container h1 {
-    letter-spacing: 5px;
+    width: 950px;
+    margin: 0px auto 50px;
+    padding: 40px 0px;
+    letter-spacing: 10px;
     line-height: 50%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 72px;
     color: #fbeee4;
     opacity: 0.95;
+    background-color: #000000;
 }
 
 .container h3 {
     padding: 0px 0px 25px 0px;
+    margin: 0px 0px 50px 0px;
     line-height: 200%;
     margin: auto, auto;
     white-space: nowrap;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 32px;
     color: #fbeee4;
     opacity: 0.95;
 }
 
 .jumbotron {
-    padding: 225px 0px 0px 0px;
+    padding: 350px 0px 0px 0px;
     background-image: url(./docs/IMG9.jpg);
     min-height: 100%;
     background-attachment: fixed;
@@ -95,7 +89,7 @@ nav a:link, a:visited, a:hover, a:active {
 }
 
 .container {
-    min-height: 100%;
+    height: 265px;
     max-width: 940px;
     padding: 0px 0px 250px 0px; 
     margin: auto auto;
@@ -153,13 +147,6 @@ img.github_resize {
     top: 30px;  
 }
 
-
-.parallax {
-    text-align: center;
-    min-width: 100%;
-    margin: 90px auto 0;
-}
-
 a.anchor {
     display: block; 
     position: relative; 
@@ -175,6 +162,14 @@ a.anchor {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 .bg-img1 { 
@@ -193,9 +188,27 @@ a.anchor {
     background-image: url("./docs/IMG11.jpg");
 } */
 
+.parallax {
+    min-width: 100%;
+    margin: 90px auto 0;
+}
+
+.parallaxbox {
+    display: inline-block;
+    text-align: center;
+    min-height: 850px;
+    background-color: #000000;
+    width: 50%;
+    opacity: 0.75;
+    transition: 0.75s;
+}
+
+.parallaxbox:hover {
+    opacity: 0.95;
+}
+
 .parallaxtitle {
     display: inline-block;
-    background-color: transparent;
     color: #f7f7f7;
     border-bottom: 1px #f7f7f7 solid;
     margin: 50px 0px;
@@ -207,12 +220,23 @@ a.anchor {
 
 .parallaxtext {
     display: inline-block;
-    background-color: transparent;
+    width: 75%;
     color: #fbeee4;
     margin: 50px 0px;
     font-family: 'Work Sans';
     font-weight: 200;
     font-size: 24px;
+}
+
+.imgcropper {
+    height: 250px;
+    width: 250px;
+    display: inline;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    opacity: 1;
 }
 
 footer {
