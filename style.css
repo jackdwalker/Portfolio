@@ -38,12 +38,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .kaomoji1 {
     color: #f4d0fd;
-    text-shadow: 0px 0px 25px #ed73e1;
+    text-shadow: 0px 0px 15px #ed73e1;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+.kaomoji1:hover {
+    text-shadow: 0px 0px 40px #ed73e1;
 }
 
 .kaomoji2 {
     color: #c7fcfd;
-    text-shadow: 0px 0px 25px #35d0f0;
+    text-shadow: 0px 0px 15px #35d0f0;
+}
+
+.kaomoji2:hover {
+    text-shadow: 0px 0px 40px #35d0f0;
+    transition: 0.8s;
 }
 
 nav a:link, a:visited, a:hover, a:active {
@@ -63,6 +74,7 @@ nav a:link, a:visited, a:hover, a:active {
     color: #fbeee4;
     opacity: 0.95;
     background-color: #000000;
+    border: 1px solid #fbeee4;
 }
 
 .container h3 {
@@ -80,7 +92,8 @@ nav a:link, a:visited, a:hover, a:active {
 
 .jumbotron {
     padding: 350px 0px 0px 0px;
-    background-image: url(./docs/IMG9.jpg);
+    /* background-image: url(./docs/IMG9.jpg); */
+    background-color: #000000;
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -101,6 +114,7 @@ nav a:link, a:visited, a:hover, a:active {
     margin: 0px 10px;
     opacity: 1;
     color: #fbeee4;
+    border: 1px solid #fbeee4;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -114,6 +128,7 @@ nav a:link, a:visited, a:hover, a:active {
 .btn-main:hover {
     background-color: #fbeee4;
     color: #000000;
+    border: 1px solid #fbeee4;
 }
 
 img.twitter_resize {
@@ -259,6 +274,10 @@ footer .feet .rightalign {
     position: absolute;
     right: 20px;
     bottom: 0px;
+}
+
+.formcontainer {
+    background-image: url(./docs/)
 }
 
 @media only screen and (max-device-width: 1024px) {
