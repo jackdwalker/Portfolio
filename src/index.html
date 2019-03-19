@@ -8,31 +8,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Favicon implementation, compatible with all browser and phone types-->
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/Portfolio/docs/browserconfig.xml">
+    <meta name="msapplication-config" content="/Portfolio/imgs/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="apple-touch-icon" sizes="180x180" href="/Portfolio/docs/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/Portfolio/docs/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/Portfolio/docs/favicon-16x16.png">
-    <link rel="manifest" href="/Portfolio/docs/site.webmanifest">
-    <link rel="mask-icon" href="/Portfolio/docs/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/Portfolio/docs/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Portfolio/imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Portfolio/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Portfolio/imgs/favicon-16x16.png">
+    <link rel="manifest" href="/Portfolio/imgs/site.webmanifest">
+    <link rel="mask-icon" href="/Portfolio/imgs/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/Portfolio/imgs/favicon.ico">
     <!-- Font import -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400" rel="stylesheet">
    <!-- Calling in the Font Awesome CDN so I can use their icons, specifically to style my back to top button -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Stylesheet import -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css"/> -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="backtotop.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/backtotop.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
     <!-- Call JS scripts -->
-    <script src="backtotop.js"></script>
+    <script src="js/backtotop.js"></script>
     <!-- Page title-->
     <title>P O R T F O L I O</title>
 </head>
 
 <body>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-up hvr-bob"></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="hvr-bob"><div class="fas fa-angle-up hvr-icon"></div></button>
 
     <header>
         <nav>
@@ -41,13 +42,13 @@
                 <li> <a href="#contact">CONTACT</a> </li>
                 <li> <a href="https://medium.com/@jackdwalker" target="_blank" title="Link to Medium Blog"> BLOG </a></li>
                 <li> <a href="https://twitter.com/JackWalkerCA" target="_blank"><img class="twitter_resize"
-                            src="./docs/Twitter.png" alt="Twitter Logo"> </a></li>
+                            src="./imgs/Twitter.png" alt="Twitter Logo"> </a></li>
                 <li> <a href="https://www.linkedin.com/in/jack-walker-640a95181/" target="_blank"><img
-                            class="linkedin_resize" src="./docs/Linkedin.png" alt="LinkedIn Logo"></a></li>
+                            class="linkedin_resize" src="./imgs/Linkedin.png" alt="LinkedIn Logo"></a></li>
                 <li> <a href="https://umbralookbook.tumblr.com" target="_blank"><img class="tumblr_resize"
-                            src="./docs/tumblr.png" alt="Tumblr Logo"></a></li>
+                            src="./imgs/tumblr.png" alt="Tumblr Logo"></a></li>
                 <li> <a href="https://github.com/jackdwalker/" target="_blank"><img class="github_resize"
-                            src="./docs/daftpunktocat-thomas.gif" alt="Github Logo - Octocat"></a></li>
+                            src="./imgs/daftpunktocat-thomas.gif" alt="Github Logo - Octocat"></a></li>
             </ul>
         </nav>
     </header>
@@ -55,12 +56,12 @@
     <main>
         <div class="jumbotron">
             <div class="container">
-                <!-- <img class="imgcropper" src="./docs/Logo_black_bigger.png"> -->
+                <!-- <img class="imgcropper" src="./imgs/Logo_black_bigger.png"> -->
                 <h1>JACK WALKER</h1>
                 <h3><span class="kaomoji1">⋌( ✖ ﹏ ✖ )⋋</span><span class="kaomoji2">⋌( ✖ ﹏ ✖ )⋋</span><span class="kaomoji1">⋌( ✖ ﹏ ✖ )⋋</span></h3>
-                <a href="#professional" class="btn-main"> PROFESSIONAL </a>
-                <a href="#cultural" class="btn-main"> CULTURAL </a>
-                <a href="#personal" class="btn-main"> PERSONAL </a>
+                <a href="#professional" class="btn-main hvr-bounce-to-right"> PROFESSIONAL </a>
+                <a href="#cultural" class="btn-main hvr-bounce-to-top"> CULTURAL </a>
+                <a href="#personal" class="btn-main hvr-bounce-to-left"> PERSONAL </a>
             </div>
         </div>
     </main>
@@ -81,7 +82,7 @@
                 <br>
                 <span class="parallaxtext">~~ ♪♪♪♪ // Fashion ~~</span>
                 <br>
-                <img class="imgcropper DJ" src="./docs/DJ.jpg" alt="Picture of Jack">
+                <img class="imgcropper DJ" src="./imgs/DJ.jpg" alt="Picture of Jack">
             </div>
         </div>
         <div class="bg-img3 left">
@@ -89,7 +90,7 @@
                 <a id="personal" class="anchor"></a>
                 <span class="parallaxtitle">PERSONAL</span>
                 <br>
-                <img class="imgcropper profile" src="./docs/Profile BW.jpg" alt="Picture of Jack">
+                <img class="imgcropper profile" src="./imgs/Profile BW.jpg" alt="Picture of Jack">
             </div>
         </div>
     </div>

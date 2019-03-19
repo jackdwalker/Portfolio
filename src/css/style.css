@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kaomoji1:hover {
-    text-shadow: 0px 0px 50px #ed73e1, 0px 0px 15px #ed73e1, 0px 0px 15px #ed73e1, 0px 0px 15px #ed73e1, 0px 0px 15px #ed73e1;
+    text-shadow: 0px 0px 50px #ed73e1, 0px 0px 45px #ed73e1, 0px 0px 35px #ed73e1, 0px 0px 25px #ed73e1, 0px 0px 15px #ed73e1;
 }
 
 .kaomoji2 {
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .kaomoji2:hover {
-    text-shadow: 0px 0px 50px #35d0f0, 0px 0px 25px #35d0f0, 0px 0px 25px #35d0f0, 0px 0px 25px #35d0f0, 0px 0px 25px #35d0f0;
+    text-shadow: 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0;
 }
 
 nav a:link, a:visited, a:hover, a:active {
@@ -99,7 +99,7 @@ nav a:link, a:visited, a:hover, a:active {
 
 .jumbotron {
     padding: 350px 0px 0px 0px;
-    /* background-image: url(./docs/IMG9.jpg); */
+    /* background-image: url(./imgs/IMG9.jpg); */
     background-color: #000000;
     min-height: 100%;
     background-attachment: fixed;
@@ -134,7 +134,7 @@ nav a:link, a:visited, a:hover, a:active {
 }
 
 .btn-main:hover {
-    background-color: #fbeee4;
+    /* background-color: #fbeee4; */
     color: #000000;
 }
 
@@ -194,15 +194,15 @@ a.anchor {
 }
 
 .bg-img1 { 
-    background-image: url("./docs/IMG13.jpg");
+    background-image: url("../imgs/IMG13.jpg");
 }
 
 .bg-img2 { 
-    background-image: url("./docs/IMG10.jpg");
+    background-image: url("../imgs/IMG10.jpg");
 }
 
 .bg-img3 { 
-    background-image: url("./docs/IMG12.jpg");
+    background-image: url("../imgs/IMG12.jpg");
 }
 
 .parallax {
@@ -342,71 +342,6 @@ footer .feet .rightalign {
     right: 20px;
     bottom: 0px;
 }
-
-/* Bob */
-@-webkit-keyframes hvr-bob {
-    0% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-    50% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
-    }
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  @keyframes hvr-bob {
-    0% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-    50% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
-    }
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  @-webkit-keyframes hvr-bob-float {
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  @keyframes hvr-bob-float {
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  .hvr-bob {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  }
-  .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
-    -webkit-animation-name: hvr-bob-float, hvr-bob;
-    animation-name: hvr-bob-float, hvr-bob;
-    -webkit-animation-duration: .3s, 1.5s;
-    animation-duration: .3s, 1.5s;
-    -webkit-animation-delay: 0s, .3s;
-    animation-delay: 0s, .3s;
-    -webkit-animation-timing-function: ease-out, ease-in-out;
-    animation-timing-function: ease-out, ease-in-out;
-    -webkit-animation-iteration-count: 1, infinite;
-    animation-iteration-count: 1, infinite;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-direction: normal, alternate;
-    animation-direction: normal, alternate;
-  }
 
 @media only screen and (max-device-width: 1024px) {
     .jumbotron .bgimg-1, .bgimg-2, .bgimg-3 {
