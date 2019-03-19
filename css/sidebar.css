@@ -32,7 +32,7 @@
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {
-  float: left; /* needed to bring the bar back in line and not appear under the text block during transition */
+  position: absolute; /* needed to bring the bar back in line and not appear under the text block during transition */
   width: 850px;
   cursor: pointer;
   background-color: #000;
