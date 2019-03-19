@@ -1,8 +1,8 @@
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 450px; /* Place the button 450px from the bottom of the page */
-  left: 25px; /* Place the button 450px from the left */
+  top: 100px; /* Place the button 450px from the bottom of the page */
+  left: 50%; /* Place the button 450px from the left */
   z-index: 99; /* Make sure it does not overlap */  
   cursor: pointer; /* Add a mouse pointer on hover */
   border: none; 

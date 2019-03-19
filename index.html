@@ -71,13 +71,12 @@
     <div class="parallax">  
         <div class="bg-img1 left">
             <a id="professional" class="anchor"></a>
-            <div href="javascript:void(0)" id="mySidepanel" class="sidepanel" onclick="closeNav()">
-                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+            <div href="javascript:void(0)" id="mySidepanel1" class="sidepanel" onclick="closeNav('mySidepanel1', 'myOpenbtn1')">
                 <span class="parallaxtitle">PROFESSIONAL</span>
                 <br>
                 <span class="parallaxtext">Full-Stack Developer in training @ Coder Academy Brisbane</span>
             </div>
-            <button id="myOpenbtn" class="openbtn" onclick="openNav()"> PROFESSIONAL</button> 
+            <button id="myOpenbtn1" class="openbtn" onclick="openNav('mySidepanel1', 'myOpenbtn1')">PROFESSIONAL</button> 
         </div>
         <div class="bg-img2 right">
             <a id="cultural" class="anchor"></a>
@@ -90,12 +89,13 @@
             </div>
         </div>
         <div class="bg-img3 left">
-            <div class="parallaxbox">
-                <a id="personal" class="anchor"></a>
+            <a id="personal" class="anchor"></a>
+            <div href="javascript:void(0)" id="mySidepanel3" class="sidepanel" onclick="closeNav('mySidepanel3', 'myOpenbtn3')">
                 <span class="parallaxtitle">PERSONAL</span>
                 <br>
                 <img class="imgcropper profile" src="./imgs/Profile BW.jpg" alt="Picture of Jack">
             </div>
+            <button id="myOpenbtn3" class="openbtn" onclick="openNav('mySidepanel3', 'myOpenbtn3')">PERSONAL</button>
         </div>
     </div>
 
