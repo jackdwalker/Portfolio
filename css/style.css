@@ -226,8 +226,8 @@ a.anchor {
 
 .parallaxtitle {
     display: inline-block;
-    color: #f7f7f7;
-    border-bottom: 1px #f7f7f7 solid;
+    color: #fbeee4;
+    border-bottom: 1px #fbeee4 solid;
     margin: 50px 0px;
     font-family: 'Work Sans';
     font-weight: 200;
@@ -259,7 +259,7 @@ a.anchor {
 input[type=text], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid #fbeee4;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
@@ -272,16 +272,16 @@ label {
 
 input[type=submit] {
     background-color: #000;
-    color: #f7f7f7;
+    color: #fbeee4;
     padding: 12px 20px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid #fbeee4;
     border-radius: 4px;
     cursor: pointer;
     float: right;
 }
 
 input[type=submit]:hover {
-    background-color: #f7f7f7;
+    background-color: #fbeee4;
     color: #000;
 }
 
@@ -297,7 +297,7 @@ input[type=submit]:hover {
 }
 
 .col-25 {
-    color: #f7f7f7;
+    color: #fbeee4;
     float: left;
     width: 25%;
     /* margin-top: 6px; */
