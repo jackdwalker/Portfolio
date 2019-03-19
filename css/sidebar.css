@@ -48,6 +48,19 @@
   transition: 1.5s;
 }
 
+#mySidepanel2{
+  float: right;
+}
+
+#myOpenbtn2 {
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  margin-right: 81px;
+  right: 0px;
+  float: left;
+}
+
 /* .leftpanel {
   transform: rotate(90deg);
   transform-origin: top left;
