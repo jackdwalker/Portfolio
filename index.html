@@ -37,7 +37,7 @@
         <nav>
             <ul>
                 <li> <a href="./index.html">HOME</a>  </li>
-                <li> <a href="./contact.html">CONTACT</a> </li>
+                <li> <a href="#contact">CONTACT</a> </li>
                 <li> <a href="https://medium.com/@jackdwalker" target="_blank" title="Link to Medium Blog"> BLOG </a></li>
                 <li> <a href="https://twitter.com/JackWalkerCA" target="_blank"><img class="twitter_resize"
                             src="./docs/Twitter.png" alt="Twitter Logo"> </a></li>
@@ -91,6 +91,40 @@
                 <img class="imgcropper profile" src="./docs/Profile BW.jpg" alt="Picture of Jack">
             </div>
         </div>
+    </div>
+
+    <div class="formcontainer">
+        <a id="contact" class="anchor"></a>
+        <div class="parallaxtitle">CONTACT ME</div>
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="NAME">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>  
+                <div class="col-75">
+                    <input type="text" id="subject" name="subject" placeholder="SUBJECT">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="message" name="message" placeholder="WHAT'S UP?" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
     </div>
 
     <footer>
