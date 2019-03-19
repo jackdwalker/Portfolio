@@ -25,8 +25,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/backtotop.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
     <!-- Call JS scripts -->
     <script src="js/backtotop.js"></script>
+    <script src="js/sidebar.js"></script>
     <!-- Page title-->
     <title>P O R T F O L I O</title>
 </head>
@@ -69,11 +71,13 @@
     <div class="parallax">  
         <div class="bg-img1 left">
             <a id="professional" class="anchor"></a>
-            <div class="parallaxbox">
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <span class="parallaxtitle">PROFESSIONAL</span>
                 <br>
                 <span class="parallaxtext">Full-Stack Developer in training @ Coder Academy Brisbane</span>
             </div>
+            <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidepanel</button> 
         </div>
         <div class="bg-img2 right">
             <a id="cultural" class="anchor"></a>
