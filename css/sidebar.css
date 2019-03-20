@@ -17,7 +17,7 @@
 }
 
 .sidepanel:hover {
-  opacity: 0.95;
+  opacity: 0.96;
 }
 
 /* The sidepanel links */
@@ -61,19 +61,7 @@
   float: left;
 }
 
-/* .leftpanel {
-  transform: rotate(90deg);
-  transform-origin: top left;
-  margin-left: 80px;
-}
-
-.rightpanel {
-  transform: rotate(90deg);
-  transform-origin: top right;
-  margin-right: 80px;
-} */
-
-.openbtn:hover {
-  background-color: #fbeee7;
+/* .openbtn:hover {
+  background-color: #fbeee7;     DONT NEED WITH HVR CLASS ADDED
   color: #000;
-}
+} */ 

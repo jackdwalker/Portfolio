@@ -343,6 +343,16 @@ footer .feet .rightalign {
     bottom: 0px;
 }
 
+.openbtn .fa-arrow-up.top {
+    position: absolute;
+    right: 20px;
+}
+
+.openbtn .fa-arrow-up.bottom {
+    position: absolute;
+    left: 20px;
+}
+
 @media only screen and (max-device-width: 1024px) {
     .jumbotron .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;

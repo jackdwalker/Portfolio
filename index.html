@@ -76,7 +76,7 @@
                 <br>
                 <span class="parallaxtext">Full-Stack Developer in training @ Coder Academy Brisbane</span>
             </div>
-            <button id="myOpenbtn1" class="openbtn" onclick="openNav('mySidepanel1', 'myOpenbtn1')">PROFESSIONAL</button> 
+            <button id="myOpenbtn1" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel1', 'myOpenbtn1')"><i class="fa fa-arrow-up bottom" aria-hidden="true"></i>PROFESSIONAL<i class="fa fa-arrow-up top" aria-hidden="true"></i></button> 
         </div>
         <div class="bg-img2 right">
             <a id="cultural" class="anchor"></a>
@@ -87,7 +87,7 @@
                 <br>
                 <img class="imgcropper DJ" src="./imgs/DJ.jpg" alt="Picture of Jack">
             </div>
-            <button id="myOpenbtn2" class="openbtn" onclick="openNav('mySidepanel2', 'myOpenbtn2')">CULTURAL</button>
+            <button id="myOpenbtn2" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel2', 'myOpenbtn2')"><i class="fa fa-arrow-up bottom" aria-hidden="true"></i>CULTURAL<i class="fa fa-arrow-up top" aria-hidden="true"></i></button>
         </div>
         <div class="bg-img3 left">
             <a id="personal" class="anchor"></a>
@@ -96,14 +96,14 @@
                 <br>
                 <img class="imgcropper profile" src="./imgs/Profile BW.jpg" alt="Picture of Jack">
             </div>
-            <button id="myOpenbtn3" class="openbtn" onclick="openNav('mySidepanel3', 'myOpenbtn3')">PERSONAL</button>
+            <button id="myOpenbtn3" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel3', 'myOpenbtn3')"><i class="fa fa-arrow-up top" aria-hidden="true"></i>PERSONAL<i class="fa fa-arrow-up bottom" aria-hidden="true"></i></button>
         </div>
     </div>
 
     <div class="formcontainer">
         <a id="contact" class="anchor"></a>
         <div class="parallaxtitle">CONTACT ME</div>
-        <form action="action_page.php">
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <div class="row">
                 <div class="col-25">
                     <label for="name">Name</label>
