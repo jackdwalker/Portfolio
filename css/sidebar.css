@@ -2,7 +2,7 @@
 /* The sidepanel menu */
 .sidepanel {
   text-align: center;
-  height: 790px; /* Specify a height */
+  height: 850px; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
   position: static; /* Stay in place */
   z-index: 1; /* Stay on top */
@@ -56,7 +56,7 @@
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: top right;
-  margin-right: 81px;
+  margin-right: 80px;
   right: 0px;
   float: left;
 }
