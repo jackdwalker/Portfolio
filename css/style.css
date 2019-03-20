@@ -343,12 +343,12 @@ footer .feet .rightalign {
     bottom: 0px;
 }
 
-.openbtn .fa-arrow-up.top {
+.openbtn .fa-angle-double-up.top {
     position: absolute;
     right: 20px;
 }
 
-.openbtn .fa-arrow-up.bottom {
+.openbtn .fa-angle-double-up.bottom {
     position: absolute;
     left: 20px;
 }
