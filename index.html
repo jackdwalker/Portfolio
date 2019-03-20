@@ -25,8 +25,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/backtotop.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
     <!-- Call JS scripts -->
     <script src="js/backtotop.js"></script>
+    <script src="js/sidebar.js"></script>
     <!-- Page title-->
     <title>P O R T F O L I O</title>
 </head>
@@ -69,36 +71,39 @@
     <div class="parallax">  
         <div class="bg-img1 left">
             <a id="professional" class="anchor"></a>
-            <div class="parallaxbox">
-                <span class="parallaxtitle hvr-underline-from-center">PROFESSIONAL</span>
+            <div href="javascript:void(0)" id="mySidepanel1" class="sidepanel" onclick="closeNav('mySidepanel1', 'myOpenbtn1')">
+                <span class="parallaxtitle">PROFESSIONAL</span>
                 <br>
                 <span class="parallaxtext">Full-Stack Developer in training @ Coder Academy Brisbane</span>
             </div>
+            <button id="myOpenbtn1" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel1', 'myOpenbtn1')"><i class="fa fa-arrow-up bottom" aria-hidden="true"></i>PROFESSIONAL<i class="fa fa-arrow-up top" aria-hidden="true"></i></button> 
         </div>
         <div class="bg-img2 right">
             <a id="cultural" class="anchor"></a>
-            <div class="parallaxbox">
+            <div href="javascript:void(0)" id="mySidepanel2" class="sidepanel" onclick="closeNav('mySidepanel2', 'myOpenbtn2')">
                 <span class="parallaxtitle">CULTURAL</span>
                 <br>
                 <span class="parallaxtext">~~ ♪♪♪♪ // Fashion ~~</span>
                 <br>
                 <img class="imgcropper DJ" src="./imgs/DJ.jpg" alt="Picture of Jack">
             </div>
+            <button id="myOpenbtn2" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel2', 'myOpenbtn2')"><i class="fa fa-arrow-up bottom" aria-hidden="true"></i>CULTURAL<i class="fa fa-arrow-up top" aria-hidden="true"></i></button>
         </div>
         <div class="bg-img3 left">
-            <div class="parallaxbox">
-                <a id="personal" class="anchor"></a>
+            <a id="personal" class="anchor"></a>
+            <div href="javascript:void(0)" id="mySidepanel3" class="sidepanel" onclick="closeNav('mySidepanel3', 'myOpenbtn3')">
                 <span class="parallaxtitle">PERSONAL</span>
                 <br>
                 <img class="imgcropper profile" src="./imgs/Profile BW.jpg" alt="Picture of Jack">
             </div>
+            <button id="myOpenbtn3" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel3', 'myOpenbtn3')"><i class="fa fa-arrow-up top" aria-hidden="true"></i>PERSONAL<i class="fa fa-arrow-up bottom" aria-hidden="true"></i></button>
         </div>
     </div>
 
     <div class="formcontainer">
         <a id="contact" class="anchor"></a>
         <div class="parallaxtitle">CONTACT ME</div>
-        <form action="action_page.php">
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <div class="row">
                 <div class="col-25">
                     <label for="name">Name</label>

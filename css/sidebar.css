@@ -1,0 +1,67 @@
+
+/* The sidepanel menu */
+.sidepanel {
+  text-align: center;
+  height: 790px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: static; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #000; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  opacity: 0.5;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  float: left;
+}
+
+.sidepanel:hover {
+  opacity: 0.96;
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fbeee7;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  position: absolute; /* needed to bring the bar back in line and not appear under the text block during transition */
+  width: 850px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fbeee7;
+  font-family: 'Work Sans';
+  font-size: 32px;
+  font-weight: 200;
+  padding: 22px 15px;
+  transform: rotate(90deg);
+  transform-origin: top left;
+  margin-left: 80px;
+  border: none;
+  transition: 1.5s;
+}
+
+#mySidepanel2{
+  float: right;
+}
+
+#myOpenbtn2 {
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  margin-right: 81px;
+  right: 0px;
+  float: left;
+}
+
+/* .openbtn:hover {
+  background-color: #fbeee7;     DONT NEED WITH HVR CLASS ADDED
+  color: #000;
+} */ 
