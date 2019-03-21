@@ -4,6 +4,10 @@ html, body {
   scroll-behaviour: smooth;
 }
 
+h1 {
+  font-weight: normal;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,7 +25,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 1rem 0;
+  margin: 1rem 0;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,5 +75,104 @@ nav .topnav a:link, nav a:hover, nav a:visited, nav a:active {
 
 nav .topnav a.icon {
   color: #fbeee4;
+}
+
+.loadpage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #000;
+  padding-top: 1rem 0;
+  height: 50.75rem;
+}
+
+.loadpage .loadpage-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  min-width: 100%;
+  color: #fbeee4;
+}
+
+.loadpage .loadpage-container h1 {
+  margin: 0 auto;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  letter-spacing: 1rem;
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 150%;
+}
+
+.loadpage .loadpage-container .kaomoji {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-size: 1.75rem;
+  margin: 3rem 0;
+}
+
+.loadpage .loadpage-container .kaomoji .kaomoji1 {
+  color: #f4d0fd;
+  text-shadow: 0px 0px 15px #ed73e1, 0px 0px 15px #ed73e1;
+  border-radius: 50%;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.loadpage .loadpage-container .kaomoji .kaomoji2 {
+  color: #c7fcfd;
+  text-shadow: 0px 0px 15px #35d0f0, 0px 0px 15px #35d0f0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.loadpage .loadpage-container .btn-main {
+  background-color: #000;
+  min-width: 66.66%;
+  padding: 1rem 0;
+  margin: 0.5rem auto;
+  opacity: 1;
+  color: #fbeee4;
+  border: 1px solid #fbeee4;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.95;
+}
+
+.loadpage .loadpage-container .btn-main:hover {
+  color: #000;
+  background-color: #fbeee4;
+}
+
+.bg-img1, .bg-img2, .bg-img3 {
+  min-height: 20.375rem;
+}
+
+.content1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content1 .bg-img1 {
+  background-image: url("../imgs/IMG1.jpg");
 }
 /*# sourceMappingURL=style.css.map */
