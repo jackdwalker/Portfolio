@@ -2,7 +2,8 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
+  if (document.body.scrollTop > (innerHeight - document.getElementsByTagName("header")[0].clientHeight) 
+  || document.documentElement.scrollTop > (innerHeight - document.getElementsByTagName("header")[0].clientHeight)) {
     document.getElementById("myBtn").style.display = "block";
   } else {
     document.getElementById("myBtn").style.display = "none";
