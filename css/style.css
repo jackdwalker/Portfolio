@@ -162,17 +162,19 @@ nav .topnav a.icon {
   background-color: #fbeee4;
 }
 
-.bg-img1, .bg-img2, .bg-img3 {
-  min-height: 20.375rem;
+.bg-img-1 img, .bg-img-2 img, .bg-img-3 img {
+  height: 100%;
+  width: 100%;
+}
+
+a.anchor {
+  position: relative;
+  visibility: hidden;
 }
 
 .content1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.content1 .bg-img1 {
-  background-image: url("../imgs/IMG1.jpg");
 }
 /*# sourceMappingURL=style.css.map */
