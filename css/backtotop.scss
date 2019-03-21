@@ -1,0 +1,22 @@
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    top: 5rem; // Button will be 5rem from the top of the page ensuring no overlap w/ header
+    left: 50%; // Button will float in the middle of the screen
+    z-index: 99; /* Make sure it does not overlap */  
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border: none; 
+    outline: none;
+    font-size: 2.25rem;
+    color: #fbeee4; 
+    background-color: transparent;
+    opacity: 0.6;
+    transition: 0.75s;
+    }
+    
+    #myBtn:hover {
+      opacity: 1.0; /* Add a dark-grey background on hover */
+    }
+  
+  
+  

@@ -79,7 +79,7 @@ nav {
     display: flex;
     align-content: center;
     background-color: #000;
-    padding-top: 1rem 0; // Accounting for header padding so there is no space as header moves down
+    padding-top: 1rem; // Accounting for header padding so there is no space as header moves down
     height: 50.75rem;
 
     .loadpage-container {
@@ -88,7 +88,6 @@ nav {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-        min-width: 100%;   
         color: #fbeee4;
 
         h1 {
@@ -144,16 +143,38 @@ nav {
     }
 }
 
-.bg-img-1 img, .bg-img-2 img, .bg-img-3 img {
-    height: 100%;
-    width: 100%;
-}
-
 a.anchor {
     position: relative; 
     visibility: hidden;
+    top: -4rem;
 }
 
-.content1 {
+.content {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    .bg-img-1 img, .bg-img-2 img, .bg-img-3 img {
+        display: flex; // Override user agent default for div
+        height: 100%;
+        width: 100%;
+    }
+
+    .content-body {
+        display: flex;
+        justify-content: center;
+        background-color: #000;
+        height: 25.375rem;
+        width: auto;
+        padding: 1rem 2rem;
+        color: #fbeee4;
+        font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+        font-weight: 200;
+
+        .title {
+            letter-spacing: 0.75rem;
+            border-bottom: 1px #fbeee4 solid;
+        }
+    }
+    
 }

@@ -4,7 +4,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > (innerHeight - document.getElementsByTagName("header")[0].clientHeight) 
   || document.documentElement.scrollTop > (innerHeight - document.getElementsByTagName("header")[0].clientHeight)) {
-    document.getElementById("myBtn").style.display = "block";
+    document.getElementById("myBtn").style.display = "flex";
   } else {
     document.getElementById("myBtn").style.display = "none";
   }
