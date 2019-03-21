@@ -1,0 +1,94 @@
+// Setting default margin and padding properties
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    scroll-behaviour: smooth;
+}
+
+// Creating a header element that will stick to the top of the page and store
+// the nav
+header {
+    display: flex;
+    background-color: #000000; // Setting header colour
+    position: fixed;
+    width: 100%; 
+    z-index: 10; // Forcing the header be in the foreground over other elements
+}
+
+// Setting the nav bar properties i.e. the elements within the sticky header
+nav {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 1rem 0;
+    overflow: hidden;
+    display: flex;
+
+    img {
+        padding-right: 1rem;
+    }
+
+    img.twitter_resize {
+        padding-left: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    img.linkedin_resize {
+        height: 2rem;
+        width: 2rem;  
+    }
+
+    img.tumblr_resize {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    img.github_resize {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: absolute;
+        top: 1.375rem; // Font is 24px high. Header is 68. Difference puts 1.375rem as the centering value.
+        right: 1rem;
+        color: #fbeee4;
+        font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+
+    .topnav a:link, a:hover, a:visited, a:active {
+        color: #fbeee4;
+        text-decoration: none;
+    }
+    
+    .topnav a.icon {
+        color: #fbeee4;
+    }
+  
+}
+
+
+
+
+
+
+
+// @media only screen and (min-device-width: 415px) {
+//     nav {
+
+//         .topnav .icon {
+//             display: none;
+//         }
+        
+//         .topnav li.socials {
+//             order: 2;
+//         }
+
+//         .topnav li.collapsible {
+//             order: 1;
+//         }
+//     }
+// }
