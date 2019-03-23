@@ -254,11 +254,11 @@ a.anchor {
   padding-top: 1rem;
 }
 
-.formcontainer {
+.form-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 75vh;
+  height: 89vh;
   background-color: #000;
   color: #fbeee4;
   font-family: 'Work Sans', sans-serif;
@@ -266,60 +266,50 @@ a.anchor {
   font-size: 1rem;
 }
 
-.formcontainer .form-content {
-  margin: 0 2rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.formcontainer .form-content ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.form-container ul {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
 }
 
-.formcontainer .form-content ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.form-container ul.form-content {
+  width: 100%;
+  margin: 2rem 2rem;
+}
+
+.form-container ul.form-content li {
+  margin-top: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  margin-top: 1rem;
-  padding: 0 5rem;
-  align-items: center;
 }
 
-.formcontainer .form-content ul li.form-title {
-  width: auto;
-  margin: 0 auto;
-  padding: 0 0;
-  margin-bottom: 5rem;
+.form-container ul.form-content li.form-title {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4rem;
   letter-spacing: 0.75rem;
   border-bottom: 1px solid #fbeee4;
 }
 
-.formcontainer .form-content ul li label {
+.form-container ul.form-content li label {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 120px;
           flex: 1 0 120px;
   max-width: 220px;
 }
 
-.formcontainer .form-content ul li input, .formcontainer .form-content ul li textarea {
+.form-container ul.form-content li input, .form-container ul.form-content li textarea {
+  width: 75%;
   max-width: 100%;
   padding: 15px;
   border: none;
   border-radius: 0.25rem;
 }
 
-.formcontainer .form-content button {
+.form-container ul button {
   margin-left: auto;
   padding: 0.5rem 1rem;
   border: none;

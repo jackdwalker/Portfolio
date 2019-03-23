@@ -207,37 +207,30 @@ a.anchor {
     }  
 }
 
-.formcontainer {
+.form-container {
     display: flex;
-    height: 75vh;
+    height: 89vh;
     background-color: #000;
     color: #fbeee4;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     font-size: 1rem;
 
-    .form-content {
-        margin: 0 2rem;
-        justify-content: center;
-
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            padding-inline-start: 0;
+    ul {
+        flex-wrap: wrap;
+        padding-inline-start: 0;
+        
+        &.form-content {
+        width: 100%;
+        margin: 2rem 2rem;
 
             li {
-                display: flex;
-                align-items: center;
-                text-align: center;
                 margin-top: 1rem;
-                padding: 0 5rem;
                 align-items: center;
 
                 &.form-title {
-                    width: auto;
-                    margin: 0 auto;
-                    padding: 0 0;
-                    margin-bottom: 5rem;    
+                    justify-content: center;
+                    margin-bottom: 4rem;    
                     letter-spacing: 0.75rem; 
                     border-bottom: 1px solid #fbeee4;
                 }
@@ -248,6 +241,7 @@ a.anchor {
                 }
     
                 input, textarea {
+                    width: 75%;
                     max-width: 100%;
                     padding: 15px;
                     border: none;
