@@ -14,6 +14,17 @@ h1 {
   font-weight: normal;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,7 +214,7 @@ a.anchor {
   text-align: center;
 }
 
-.content .bg-img-1 img, .content .bg-img-2 img, .content .bg-img-3 img {
+.content .bg-img-1 img, .content .bg-img-2 img, .content .bg-img-3 img, .content .bg-img-4 img {
   height: 100%;
   width: 100%;
 }
@@ -247,15 +258,7 @@ a.anchor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 88vh;
-  width: auto;
-  padding-top: 3rem;
+  height: 75vh;
   background-color: #000;
   color: #fbeee4;
   font-family: 'Work Sans', sans-serif;
@@ -263,42 +266,57 @@ a.anchor {
   font-size: 1rem;
 }
 
-.formcontainer ul {
+.formcontainer .form-content {
+  margin: 0 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formcontainer .form-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
 }
 
-.formcontainer .form-content {
-  margin: 0 2rem;
-}
-
-.formcontainer .form-content li {
-  margin-top: 1rem;
-  padding: 0 10rem;
+.formcontainer .form-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  list-style: none;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0 5rem;
+  align-items: center;
 }
 
-.formcontainer .form-content li label {
+.formcontainer .form-content ul li.form-title {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 0;
+  margin-bottom: 5rem;
+  letter-spacing: 0.75rem;
+  border-bottom: 1px solid #fbeee4;
+}
+
+.formcontainer .form-content ul li label {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 375px;
-          flex: 1 0 375px;
-  max-width: 375px;
+      -ms-flex: 1 0 120px;
+          flex: 1 0 120px;
+  max-width: 220px;
 }
 
-.formcontainer .form-content li input, .formcontainer .form-content li textarea {
-  width: 40vh;
+.formcontainer .form-content ul li input, .formcontainer .form-content ul li textarea {
+  max-width: 100%;
   padding: 15px;
   border: none;
   border-radius: 0.25rem;
-}
-
-.formcontainer .form-content .form-title {
-  margin-bottom: 2rem;
-  letter-spacing: 0.75rem;
-  border-bottom: 1px solid #fbeee4;
 }
 
 .formcontainer .form-content button {

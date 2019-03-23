@@ -14,6 +14,15 @@ h1 {
     font-weight: normal;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    text-align: center;
+}
+
 // Creating a header element that will stick to the top of the page and store
 // the nav
 header {
@@ -166,7 +175,7 @@ a.anchor {
     flex-flow: column wrap;
     text-align: center;
 
-    .bg-img-1 img, .bg-img-2 img, .bg-img-3 img {
+    .bg-img-1 img, .bg-img-2 img, .bg-img-3 img, .bg-img-4 img {
         height: 100%;
         width: 100%;
     }
@@ -200,48 +209,51 @@ a.anchor {
 
 .formcontainer {
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    height: 88vh;
-    width: auto;
-    padding-top: 3rem;
+    height: 75vh;
     background-color: #000;
     color: #fbeee4;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     font-size: 1rem;
 
-    ul {
-        padding-inline-start: 0;
-    }
-
     .form-content {
         margin: 0 2rem;
+        justify-content: center;
 
-        li {
-            margin-top: 1rem;
-            padding: 0 10rem;
-            align-items: center;
-            list-style: none;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            padding-inline-start: 0;
 
-            label {
-                flex: 1 0 375px;
-                max-width: 375px;
+            li {
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin-top: 1rem;
+                padding: 0 5rem;
+                align-items: center;
+
+                &.form-title {
+                    width: auto;
+                    margin: 0 auto;
+                    padding: 0 0;
+                    margin-bottom: 5rem;    
+                    letter-spacing: 0.75rem; 
+                    border-bottom: 1px solid #fbeee4;
+                }
+    
+                label {
+                    flex: 1 0 120px;
+                    max-width: 220px;
+                }
+    
+                input, textarea {
+                    max-width: 100%;
+                    padding: 15px;
+                    border: none;
+                    border-radius: 0.25rem;
+                }
             }
-
-            input, textarea {
-                width: 40vh;
-                padding: 15px;
-                border: none;
-                border-radius: 0.25rem;
-            }
-        }
-
-        .form-title {
-            margin-bottom: 2rem;    
-            letter-spacing: 0.75rem;
-            border-bottom: 1px solid #fbeee4;
         }
 
         button {
@@ -249,7 +261,7 @@ a.anchor {
             padding: 0.5rem 1rem;
             border: none;
             background: #000;
-            color: #fbeee4;
+            color: #fbeee4; 
             border: 1px solid #fbeee4;
             text-transform: uppercase;
             letter-spacing: .09rem;
