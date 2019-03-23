@@ -209,7 +209,7 @@ a.anchor {
 
 .form-container {
     display: flex;
-    height: 89vh;
+    height: 100vh;
     background-color: #000;
     color: #fbeee4;
     font-family: 'Work Sans', sans-serif;
@@ -225,7 +225,7 @@ a.anchor {
         margin: 2rem 2rem;
 
             li {
-                margin-top: 1rem;
+                margin: 2rem 2rem;
                 align-items: center;
 
                 &.form-title {
@@ -315,7 +315,6 @@ footer {
             }
 
             .topnav {
-                margin-bottom: 0.5rem;
 
                 a {
                     font-size: 0.8rem;
@@ -327,6 +326,13 @@ footer {
     .loadpage {
         padding-top: 1rem;
         padding-bottom: -1rem;
+    }
+
+    .form-container  {
+
+        ul li input, textarea {
+        font-size: 0.45rem;
+        }
     }
 
     footer {

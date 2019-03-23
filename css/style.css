@@ -258,7 +258,7 @@ a.anchor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 89vh;
+  height: 100vh;
   background-color: #000;
   color: #fbeee4;
   font-family: 'Work Sans', sans-serif;
@@ -279,7 +279,7 @@ a.anchor {
 }
 
 .form-container ul.form-content li {
-  margin-top: 1rem;
+  margin: 2rem 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -369,15 +369,15 @@ footer .feet {
     height: 1.5rem;
     width: 1.5rem;
   }
-  header nav .topnav {
-    margin-bottom: 0.5rem;
-  }
   header nav .topnav a {
     font-size: 0.8rem;
   }
   .loadpage {
     padding-top: 1rem;
     padding-bottom: -1rem;
+  }
+  .form-container ul li input, .form-container textarea {
+    font-size: 0.45rem;
   }
   footer .feet {
     font-size: 0.8rem;
