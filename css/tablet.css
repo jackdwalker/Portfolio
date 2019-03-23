@@ -1,13 +1,7 @@
 html, body {
   margin: 0 auto;
   padding: 0;
-  scroll-behaviour: smooth;
-}
-
-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -23,6 +17,17 @@ li {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+*, ::after, ::before {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 header {
@@ -157,6 +162,7 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-size: 1.65rem;
   margin: 3rem 0;
 }
@@ -343,44 +349,4 @@ footer .feet {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-@media only screen and (max-device-width: 374px) {
-  header {
-    height: 10vh;
-    right: 1px;
-  }
-  header nav .socials img {
-    padding-right: 1rem;
-  }
-  header nav .socials img.twitter_resize {
-    padding-left: 0.8rem;
-    height: 1.5em;
-    width: 1.5rem;
-  }
-  header nav .socials img.linkedin_resize {
-    height: 1.5rem;
-    width: 1.5rem;
-  }
-  header nav .socials img.tumblr_resize {
-    height: 1.5rem;
-    width: 1.5rem;
-  }
-  header nav .socials img.github_resize {
-    height: 1.5rem;
-    width: 1.5rem;
-  }
-  header nav .topnav a {
-    font-size: 0.8rem;
-  }
-  .loadpage {
-    padding-top: 1rem;
-    padding-bottom: -1rem;
-  }
-  .form-container ul li input, .form-container textarea {
-    font-size: 0.45rem;
-  }
-  footer .feet {
-    font-size: 0.8rem;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=tablet.css.map */

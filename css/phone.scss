@@ -2,14 +2,10 @@
 html, body {
     margin: 0 auto;
     padding: 0;
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
-div {
-    display: flex; // Override user agent default for div
-}
-
-// Setting h1 font weight default value
+// Overriding pesky user agent styles
 h1 {
     font-weight: normal;
 }
@@ -21,6 +17,16 @@ ul {
 li {
     display: flex;
     text-align: center;
+}
+
+div {
+    display: flex; 
+}
+
+// Overriding pesky normalize styles 
+
+*, ::after, ::before {
+    box-sizing: content-box;
 }
 
 // Creating a header element that will stick to the top of the page and store
@@ -123,6 +129,7 @@ header {
         .kaomoji {
             flex-direction: row;
             flex-wrap: nowrap;
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif; // Overriding normalize
             font-size: 1.65rem;
             margin: 3rem 0;
 
@@ -203,6 +210,14 @@ a.anchor {
         .content-text {
             align-self: flex-start;
             padding-top: 1rem;
+        }
+
+        .imgcropper {
+            margin-top: 1rem;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            opacity: 1;
         }
     }  
 }
