@@ -36,7 +36,7 @@ header {
   display: flex;
   background-color: #000000;
   position: fixed;
-  height: 8vh;
+  height: 9.25vh;
   width: 100%;
   z-index: 10;
 }
@@ -59,56 +59,61 @@ header nav {
 }
 
 header nav .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: auto;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
   margin: auto 0;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
 
 header nav .socials img {
-  padding-right: 1rem;
+  padding-left: 2rem;
 }
 
 header nav .socials img.twitter_resize {
-  padding-left: 1rem;
-  height: 2rem;
-  width: 2rem;
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 header nav .socials img.linkedin_resize {
-  height: 2rem;
-  width: 2rem;
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 header nav .socials img.tumblr_resize {
-  height: 2rem;
-  width: 2rem;
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 header nav .socials img.github_resize {
-  height: 2rem;
-  width: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 header nav .topnav {
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
-  margin: auto 0;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 1.5rem;
   text-align: center;
   color: #fbeee4;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: 200;
 }
 
 header nav .topnav a {
-  margin-right: 0.5rem;
+  margin: auto 1.5rem;
 }
 
 header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visited, header nav .topnav a:active {
@@ -151,8 +156,10 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   letter-spacing: 1rem;
   font-weight: 300;
-  font-size: 3rem;
-  line-height: 150%;
+  font-size: 4.5rem;
+  letter-spacing: 2.5rem;
+  line-height: 50%;
+  opacity: 0.95;
 }
 
 .loadpage .loadpage-container .kaomoji {
@@ -160,8 +167,6 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-size: 1.65rem;
   margin: 3rem 0;
@@ -180,10 +185,6 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   text-shadow: 0px 0px 15px #35d0f0, 0px 0px 15px #35d0f0;
   -webkit-transition: 1.5s;
   transition: 1.5s;
-}
-
-.loadpage .loadpage-container .kaomoji .kaomoji3 {
-  display: none;
 }
 
 .loadpage .loadpage-container .btn-main {
@@ -224,9 +225,13 @@ a.anchor {
   text-align: center;
 }
 
-.content .bg-img-1 img, .content .bg-img-2 img, .content .bg-img-3 img, .content .bg-img-4 img {
+.content .bg-img-1 img, .content .bg-img-2 img, .content .bg-img-3 img {
   height: 100%;
   width: 100%;
+}
+
+.content .bg-img-4 img {
+  display: none;
 }
 
 .content .content-body {
@@ -406,4 +411,4 @@ footer .feet {
     font-size: 0.8rem;
   }
 }
-/*# sourceMappingURL=phone.css.map */
+/*# sourceMappingURL=desktop.css.map */

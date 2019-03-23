@@ -35,7 +35,7 @@ header {
     display: flex;
     background-color: #000000; // Setting header colour
     position: fixed;
-    height: 8vh;    
+    height: 9.25vh;    
     width: 100%; 
     z-index: 10; // Forcing the header be in the foreground over other elements
 
@@ -49,49 +49,51 @@ header {
         justify-content: space-between;
 
         .socials {
+            display: flex;
             height: auto;
-            order: 1;
+            order: 2;
             margin: auto 0;
             align-self: flex-start;
             
             img {
-                padding-right: 1rem;
+                padding-left: 2rem;
             }
 
             img.twitter_resize {
-                padding-left: 1rem;
-                height: 2rem;
-                width: 2rem;
+                height: 2.25rem;
+                width: 2.25rem;
             }
 
             img.linkedin_resize {
-                height: 2rem;
-                width: 2rem;  
+                height: 2.25rem;
+                width: 2.25rem;  
             }
 
             img.tumblr_resize {
-                height: 2rem;
-                width: 2rem;
+                height: 2.25rem;
+                width: 2.25rem;
             }
 
             img.github_resize {
-                height: 2rem;
-                width: 2rem;
+                padding-left: 1.5rem;
+                padding-right: 2rem;
+                height: 2.25rem;
+                width: 2.25rem;
             }
         }
 
         .topnav {
-            order: 3;
-            margin: auto 0;
-            align-self: flex-end;
+            order: 1;
+            align-self: center;
+            padding-left: 1.5rem;
             text-align: center;
             color: #fbeee4;
             font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-            font-size: 0.9rem;
+            font-size: 1.5rem;
             font-weight: 200;
 
             a {
-                margin-right: 0.5rem;
+                margin: auto 1.5rem;
             }
 
             a:link, a:hover, a:visited, a:active {
@@ -122,13 +124,14 @@ header {
             font-family: 'Work Sans', Arial, Helvetica, sans-serif;
             letter-spacing: 1rem;
             font-weight: 300;
-            font-size: 3rem;
-            line-height: 150%;
+            font-size: 4.5rem;
+            letter-spacing: 2.5rem;
+            line-height: 50%;
+            opacity: 0.95;
         }
         
         .kaomoji {
             flex-direction: row;
-            flex-wrap: nowrap;
             font-family: 'Work Sans', Arial, Helvetica, sans-serif; // Overriding normalize
             font-size: 1.65rem;
             margin: 3rem 0;
@@ -139,15 +142,10 @@ header {
                 border-radius: 50%;
                 transition: 1.5s;
             }
-
             .kaomoji2 {
                 color: #c7fcfd;
                 text-shadow: 0px 0px 15px #35d0f0, 0px 0px 15px #35d0f0;
                 transition: 1.5s;
-            }
-
-            .kaomoji3 {
-                display: none;
             }
 
         }
@@ -187,9 +185,13 @@ a.anchor {
     flex-flow: column wrap;
     text-align: center;
 
-    .bg-img-1 img, .bg-img-2 img, .bg-img-3 img, .bg-img-4 img {
+    .bg-img-1 img, .bg-img-2 img, .bg-img-3 img {
         height: 100%;
         width: 100%;
+    }
+
+    .bg-img-4 img {
+        display: none;
     }
 
     .content-body {
