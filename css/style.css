@@ -196,12 +196,11 @@ a.anchor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  text-align: center;
 }
 
 .content .bg-img-1 img, .content .bg-img-2 img, .content .bg-img-3 img {
@@ -213,7 +212,14 @@ a.anchor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #000;
   height: 58vh;
   width: auto;
@@ -224,100 +230,79 @@ a.anchor {
 }
 
 .content .content-body .title {
+  -ms-grid-column-align: center;
+      justify-self: center;
   height: 2rem;
   letter-spacing: 0.75rem;
-  border-bottom: 1px #fbeee4 solid;
+  border-bottom: 1px solid #fbeee4;
+}
+
+.content .content-body .content-text {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .formcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   height: 88vh;
   background-color: #000;
+  color: #fbeee4;
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   font-size: 1rem;
 }
 
-.formcontainer form {
-  width: 100%;
-}
-
-.formcontainer .formtitle {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  color: #fbeee4;
-  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-  font-weight: 200;
+.formcontainer .form-content .form-title {
+  width: auto;
   letter-spacing: 0.75rem;
-  border-bottom: 1px #fbeee4 solid;
+  border-bottom: 1px solid #fbeee4;
 }
 
-.formcontainer .row {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  padding-right: 1rem;
+.formcontainer .form-content li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
 }
 
-.formcontainer .row .col-25 {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+.formcontainer .form-content > li > label,
+.formcontainer .form-content li p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 120px;
+          flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.formcontainer .form-content > li > label + * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 220px;
+          flex: 1 0 220px;
+}
+
+.formcontainer .flex-outer li input,
+.formcontainer .flex-outer li textarea {
+  padding: 15px;
+  border: none;
+}
+
+.formcontainer .form-content li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #000;
   color: #fbeee4;
-  width: 100%;
-  font-size: 24px;
-}
-
-.formcontainer .row .col-75 {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  width: 100%;
-  margin-top: 6px;
-  margin-bottom: 30px;
-  font-size: 16px;
-}
-
-.formcontainer .row input[type=text], .formcontainer .row textarea {
-  width: 100%;
-  padding: 12px;
   border: 1px solid #fbeee4;
-  border-radius: 4px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  resize: vertical;
-}
-
-.formcontainer .row label {
-  padding: 12px 12px 12px 0px;
-}
-
-.formcontainer .row input[type=submit] {
-  background-color: #000;
-  color: #fbeee4;
-  padding: 12px 20px;
-  border: 1px solid #fbeee4;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-.formcontainer .row input[type=submit]:hover {
-  background-color: #fbeee4;
-  color: #000;
-}
-
-.formcontainer .row .row:after {
-  content: "";
-  display: table;
-  clear: both;
+  text-transform: uppercase;
+  letter-spacing: .09rem;
+  border-radius: 2px;
 }
 
 footer {
