@@ -219,6 +219,10 @@ a.anchor {
             border-radius: 50%;
             opacity: 1;
         }
+
+        .openbtn {
+            display: none;
+        }
     }  
 }
 
@@ -261,6 +265,7 @@ a.anchor {
                     padding: 15px;
                     border: none;
                     border-radius: 0.25rem;
+                    font-size: 0.5rem;
                 }
             }
         }
@@ -344,9 +349,8 @@ footer {
     }
 
     .form-container  {
-
         ul li input, textarea {
-        font-size: 0.45rem;
+            font-size: 0.45rem;
         }
     }
 
@@ -356,3 +360,4 @@ footer {
         }
     }
 }
+
