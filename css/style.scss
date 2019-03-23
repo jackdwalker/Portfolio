@@ -20,6 +20,7 @@ header {
     display: flex;
     background-color: #000000; // Setting header colour
     position: fixed;
+    height: 8vh;    
     width: 100%; 
     z-index: 10; // Forcing the header be in the foreground over other elements
 
@@ -30,11 +31,13 @@ header {
         flex-wrap: nowrap;
         flex-direction: row;
         margin: 1rem 0;
-        overflow: hidden;
         justify-content: space-between;
 
         .socials {
+            height: auto;
             order: 1;
+            margin: auto 0;
+            align-self: flex-start;
             
             img {
                 padding-right: 1rem;
@@ -64,7 +67,7 @@ header {
 
         .topnav {
             order: 3;
-            margin-bottom: 0.8rem; 
+            margin: auto 0;
             align-self: flex-end;
             text-align: center;
             color: #fbeee4;
@@ -89,8 +92,7 @@ header {
     justify-content: center;
     align-content: center;
     background-color: #000;
-    padding-top: 1rem; // Accounting for header padding so there is no space as header moves down
-    height: 50.75rem;
+    height: 100vh;
 
     .loadpage-container {
         display: flex;
@@ -161,8 +163,8 @@ a.anchor {
 
 .content {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     .bg-img-1 img, .bg-img-2 img, .bg-img-3 img {
         height: 100%;
@@ -171,59 +173,173 @@ a.anchor {
 
     .content-body {
         display: flex;
-        justify-content: center;
         text-align: center;
         background-color: #000;
-        height: 25.375rem;
+        height: 58vh;
         width: auto;
         padding: 1rem 2rem;
         color: #fbeee4;
         font-family: 'Work Sans', Arial, Helvetica, sans-serif;
         font-weight: 200;
 
-        .title { // Can't be nested or it inherits sizing, would be dry to re-write so leave out
+        .title {
             height: 2rem;
             letter-spacing: 0.75rem;
             border-bottom: 1px #fbeee4 solid;
         }
+
     }
     
 }
 
-@media only screen and (max-device-width: 374px) {
-    nav {
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 88vh;
+    background-color: #000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
 
-        .topnav {
-            a {
-                font-size: 0.7rem;
-            }    
+    form {
+        width: 100%;
+    }
+    
+    .formtitle {
+        align-self: center;
+        color: #fbeee4;
+        font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        letter-spacing: 0.75rem;
+        border-bottom: 1px #fbeee4 solid;
+    }
+
+    .row {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 200;
+        padding-right: 1rem;
+
+        .col-25 {
+            align-self: flex-start;
+            color: #fbeee4;
+            width: 100%;
+            font-size: 24px;
+        }
+        
+        .col-75 {
+            align-self: flex-end;
+            width: 100%;    
+            margin-top: 6px;
+            margin-bottom: 30px;
+            font-size: 16px;
         }
 
-        .socials {
-            img {
-                padding-right: 1rem;
+        input[type=text], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #fbeee4;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        
+        label {
+            padding: 12px 12px 12px 0px;
+        }
+        
+        input[type=submit] {
+            background-color: #000;
+            color: #fbeee4;
+            padding: 12px 20px;
+            border: 1px solid #fbeee4;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #fbeee4;
+            color: #000;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 3vh;
+    padding: 0 0.2rem;
+    background-color: #000;
+    color: #fbeee4;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-weight: 200;  
+    font-size: 0.9rem;
+
+    .feet {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-device-width: 374px) {
+    header {
+        height: 10vh;
+        right: 1px;
+
+        nav {
+            .socials {
+                img {
+                    padding-right: 1rem;
+                }
+
+                img.twitter_resize {
+                    padding-left: 0.8rem;
+                    height: 1.5em;
+                    width: 1.5rem;
+                }
+
+                img.linkedin_resize {
+                    height: 1.5rem;
+                    width: 1.5rem;  
             }
 
-            img.twitter_resize {
-                padding-left: 0.8rem;
-                height: 1.2rem;
-                width: 1.2rem;
+                img.tumblr_resize {
+                    height: 1.5rem;
+                    width: 1.5rem;
+                }
+
+                img.github_resize {
+                    height: 1.5rem;
+                    width: 1.5rem;
+                }
             }
 
-            img.linkedin_resize {
-                height: 1.2rem;
-                width: 1.2rem;  
-            }
+            .topnav {
+                margin-bottom: 0.5rem;
 
-            img.tumblr_resize {
-                height: 1.2rem;
-                width: 1.2rem;
+                a {
+                    font-size: 0.8rem;
+                }    
             }
+        }
+    }
 
-            img.github_resize {
-                height: 1.2rem;
-                width: 1.2rem;
-            }
+    .loadpage {
+        padding-top: 1rem;
+        padding-bottom: -1rem;
+    }
+
+    footer {
+        .feet {
+            font-size: 0.8rem;
         }
     }
 }

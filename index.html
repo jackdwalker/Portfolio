@@ -56,16 +56,15 @@
 
     <header>
         <nav>
-            <wrapper class="socials">
+            <div class="socials">
                 <a href="https://twitter.com/JackWalkerCA" target="_blank"><img class="twitter_resize" src="imgs/Twitter.png" alt="Twitter logo"></a>
                 <a href="https://www.linkedin.com/in/jack-walker-640a95181/" target="_blank"><img class="linkedin_resize" src="imgs/Linkedin.png" alt="LinkedIn logo"></a>
                 <a href="https://umbralookbook.tumblr.com" target="_blank"><img class="tumblr_resize" src="imgs/tumblr.png" alt="Tumblr logo"></a>
                 <a href="https://github.com/jackdwalker/" target="_blank"><img class="github_resize" src="imgs/daftpunktocat-thomas.gif" alt="Animated Github logo"></a>
-            </wrapper>
-            <div class="filler"></div>
+            </div>
             <div class="topnav">
                 <a href="index.html">HOME</a>
-                <a>CONTACT</a>
+                <a href="#contact">CONTACT</a>
                 <a href="https://medium.com/@jackdwalker" target="_blank" title="Link to Medium Blog">BLOG</a>
             </div>
         </nav>
@@ -92,7 +91,9 @@
         <a id="professional" class="anchor"></a>
         <div class="bg-img-1"><img src="../imgs/IMG1.jpg" alt="Blade Runner Vibes - Liam Wong"></div>
         <div class="content-body">
-            <span class="title">PROFESSIONAL</span>
+            <div class="title">PROFESSIONAL</div>
+            <br>
+            <div class="content-text">Full-Stack Developer in training @ Coder Academy Brisbane</div>    
         </div>
     </section>
 
@@ -100,7 +101,9 @@
         <a id="cultural" class="anchor"></a>
         <div class="bg-img-2"><img src="../imgs/IMG2.jpg" alt="Kimono - Liam Wong"></div>
         <div class="content-body">
-            <span class="title">CULTURAL</span>
+            <div class="title">CULTURAL</div>
+            <br>
+            <div class="content-text">Full-Stack Developer in training @ Coder Academy Brisbane</div>    
         </div>
     </section>
 
@@ -108,12 +111,51 @@
         <a id="personal" class="anchor"></a>
         <div class="bg-img-3"><img src="../imgs/IMG3.jpg" alt="Porter Robinson Worlds album concept art"></div>
         <div class="content-body">
-            <span class="title">PERSONAL</span>
+            <div class="title">PERSONAL</div>
+            <br>
+            <div class="content-text">Full-Stack Developer in training @ Coder Academy Brisbane</div>
         </div>
     </section>
 
-    <footer>
+    <div class="formcontainer">
+        <a id="contact" class="anchor"></a>
+        <div class="formtitle">CONTACT ME</div>
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="NAME">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>  
+                <div class="col-75">
+                    <input type="text" id="subject" name="subject" placeholder="SUBJECT">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="message" name="message" placeholder="WHAT'S UP? REMEMBER TO LEAVE ME SOME CONTACT DETAILS IF YOU WANT A REPLY (:" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+    </div>
 
+    <footer>
+            <div class="feet">
+                <div class="copyright">&copy; JWRC 2019</div>
+                <div class="location">BRISBANE, QUEENSLAND, AUSTRALIA</div>
+            </div>
     </footer>
 
 </body>
