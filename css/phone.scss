@@ -152,27 +152,30 @@ header {
 
         }
 
-        .btn-main {
-            background-color: #000;
-            min-width: 66.66%;
-            padding: 1rem 0;
-            margin: 0.5rem auto;
-            opacity: 1;
-            color: #fbeee4;
-            border: 1px solid #fbeee4;
-            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-            font-weight: 600;
-            font-size: 1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-            opacity: 0.95;
-        }
+        .btn-parent {
+            margin-top: 1rem;
+            
+            .btn-child {
+                background-color: #000;
+                min-width: 66.66%;
+                padding: 1rem 0;
+                margin: 0.5rem auto;
+                opacity: 1;
+                color: #fbeee4;
+                border: 1px solid #fbeee4;
+                font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+                font-weight: 600;
+                font-size: 1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                opacity: 0.95;
+            }
 
-        .btn-main:hover {
-            color: #000;
-            background-color: #fbeee4;
-        }
-        
+            .btn-parent:hover {
+                color: #000;
+                background-color: #fbeee4;
+            }
+        }   
     }
 }
 

@@ -186,7 +186,11 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   display: none;
 }
 
-.loadpage .loadpage-container .btn-main {
+.loadpage .loadpage-container .btn-parent {
+  margin-top: 1rem;
+}
+
+.loadpage .loadpage-container .btn-parent .btn-child {
   background-color: #000;
   min-width: 66.66%;
   padding: 1rem 0;
@@ -202,7 +206,7 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   opacity: 0.95;
 }
 
-.loadpage .loadpage-container .btn-main:hover {
+.loadpage .loadpage-container .btn-parent .btn-parent:hover {
   color: #000;
   background-color: #fbeee4;
 }

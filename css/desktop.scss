@@ -29,6 +29,14 @@ div {
     box-sizing: content-box;
 }
 
+// Defining generally how links will look before/after being clicked, while clicking
+// and while being hovered
+
+a:link, a:hover, a:visited, a:active {
+    color: #fbeee4;
+    text-decoration: none;
+}
+
 // Creating a header element that will stick to the top of the page and store
 // the nav
 header {
@@ -95,11 +103,6 @@ header {
             a {
                 margin: auto 1.5rem;
             }
-
-            a:link, a:hover, a:visited, a:active {
-                color: #fbeee4;
-                text-decoration: none;
-            }
         }
     }
 }
@@ -160,13 +163,10 @@ header {
 
         }
 
-        .btn-main {
+        .btn-parent {
             display: flex;
             flex-flow: row nowrap;
             justify-content: center;
-            width: 12.5rem;
-            padding: 1rem 2.5rem;
-            margin: 0 0.625rem;
             background-color: #000;
             color: #fbeee4;
             border: 1px solid #fbeee4;
@@ -177,12 +177,17 @@ header {
             text-decoration: none;
             text-transform: uppercase;
             opacity: 0.95;
-        }
 
-        .btn-main:hover {
-            color: #000;
-        }
-        
+            .btn-child {
+                width: 12.5rem;
+                padding: 1rem 2.5rem;
+                margin: 0 0.625rem;
+            }
+
+            .btn-child:hover {
+                color: #000;
+            }
+        }    
     }
 }
 

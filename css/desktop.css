@@ -30,6 +30,11 @@ div {
           box-sizing: content-box;
 }
 
+a:link, a:hover, a:visited, a:active {
+  color: #fbeee4;
+  text-decoration: none;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,11 +121,6 @@ header nav .topnav a {
   margin: auto 1.5rem;
 }
 
-header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visited, header nav .topnav a:active {
-  color: #fbeee4;
-  text-decoration: none;
-}
-
 .loadpage {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,7 +195,7 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   text-shadow: 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0;
 }
 
-.loadpage .loadpage-container .btn-main {
+.loadpage .loadpage-container .btn-parent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,9 +206,6 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 12.5rem;
-  padding: 1rem 2.5rem;
-  margin: 0 0.625rem;
   background-color: #000;
   color: #fbeee4;
   border: 1px solid #fbeee4;
@@ -221,7 +218,13 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   opacity: 0.95;
 }
 
-.loadpage .loadpage-container .btn-main:hover {
+.loadpage .loadpage-container .btn-parent .btn-child {
+  width: 12.5rem;
+  padding: 1rem 2.5rem;
+  margin: 0 0.625rem;
+}
+
+.loadpage .loadpage-container .btn-parent .btn-child:hover {
   color: #000;
 }
 
