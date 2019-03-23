@@ -221,7 +221,7 @@ a.anchor {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #000;
-  height: 58vh;
+  height: auto;
   width: auto;
   padding: 1rem 2rem;
   color: #fbeee4;
@@ -240,6 +240,7 @@ a.anchor {
 .content .content-body .content-text {
   -ms-flex-item-align: start;
       align-self: flex-start;
+  padding-top: 1rem;
 }
 
 .formcontainer {
@@ -248,11 +249,13 @@ a.anchor {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
   height: 88vh;
+  width: auto;
+  padding-top: 3rem;
   background-color: #000;
   color: #fbeee4;
   font-family: 'Work Sans', sans-serif;
@@ -260,42 +263,47 @@ a.anchor {
   font-size: 1rem;
 }
 
-.formcontainer .form-content .form-title {
-  width: auto;
-  letter-spacing: 0.75rem;
-  border-bottom: 1px solid #fbeee4;
+.formcontainer ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.formcontainer .form-content {
+  margin: 0 2rem;
 }
 
 .formcontainer .form-content li {
+  margin-top: 1rem;
+  padding: 0 10rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
 }
 
-.formcontainer .form-content > li > label,
-.formcontainer .form-content li p {
+.formcontainer .form-content li label {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 120px;
-          flex: 1 0 120px;
-  max-width: 220px;
+      -ms-flex: 1 0 375px;
+          flex: 1 0 375px;
+  max-width: 375px;
 }
 
-.formcontainer .form-content > li > label + * {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 220px;
-          flex: 1 0 220px;
-}
-
-.formcontainer .flex-outer li input,
-.formcontainer .flex-outer li textarea {
+.formcontainer .form-content li input, .formcontainer .form-content li textarea {
+  width: 40vh;
   padding: 15px;
   border: none;
+  border-radius: 0.25rem;
 }
 
-.formcontainer .form-content li button {
+.formcontainer .form-content .form-title {
+  margin-bottom: 2rem;
+  letter-spacing: 0.75rem;
+  border-bottom: 1px solid #fbeee4;
+}
+
+.formcontainer .form-content button {
   margin-left: auto;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   border: none;
   background: #000;
   color: #fbeee4;
