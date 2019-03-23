@@ -3,30 +3,49 @@
 [Website Link](https://jackdwalker.github.io/Portfolio/)   
 [Github Repo Link](https://github.com/jackdwalker/Portfolio) 
 
-## The Website 
-Description of portfolio website
-    • Purpose
-    • Functionality/features
-    • Sitemap
-    • Screenshots
-    • Target audience
-    • Tech stack
+## My Website 
 
-Design documentation:
-    • Design process
-        ◦ Changed header format to be the same across all versions because of issues with nav responsiveness and a lack of time to fix it and get everything else done
-    • Wireframes
-    • Personal logo
-    • Usability considerations
+### Purpose
+The purpose of developing this website was three-fold. Primarily it was made as an assessment piece, showcasing what I had learnt about HTML and CSS, and how I could apply those lessons. Secondly it was created to display my skills, work history, and a little bit about myself. Thirdly it was a fun exercise in engaging creative process and infusing a bit of myself in the code I was creating.
+
+### Functionality/Features
+
+### Sitemap
+
+### Screenshots
+
+### Target Audience
+
+### Tech Stack
+
+
+## Design Documentation
+
+### Moodboard
+
+### The Design Process
+
+### Wireframes
+
+### Personal Logo
+
+### Usability Considerations
         ◦ Accessibility
         ◦ Performance
 
-Details of planning process:
-    • Project plan & Trello
-    • Screenshots of Trello board(s)
+### Challenges
+Changed header format to be the same across all versions because of issues with nav responsiveness and a lack of time to fix it and get everything else done
 
-Short Answer Q & A (all max 150 words):
 
-    • Describe key events that led to the development of the internet from the 1980s to today
-    • Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
-    • Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
+## Details of Planning Process
+
+### Project Plan
+
+### Trello
+
+
+## Short Answer Q & A:
+
+### 1. Describe key events that led to the development of the internet from the 1980s to today
+### 2. Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
+### 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
