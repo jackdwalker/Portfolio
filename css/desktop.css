@@ -128,8 +128,6 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   background-color: #000;
   height: 100vh;
 }
@@ -168,16 +166,22 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
       -ms-flex-direction: row;
           flex-direction: row;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
-  font-size: 1.65rem;
-  margin: 3rem 0;
+  font-size: 2rem;
+  margin: 3rem;
+  opacity: 0.95;
 }
 
 .loadpage .loadpage-container .kaomoji .kaomoji1 {
+  padding: 0 2rem;
   color: #f4d0fd;
   text-shadow: 0px 0px 15px #ed73e1, 0px 0px 15px #ed73e1;
   border-radius: 50%;
   -webkit-transition: 1.5s;
   transition: 1.5s;
+}
+
+.loadpage .loadpage-container .kaomoji .kaomoji1:hover {
+  text-shadow: 0px 0px 50px #ed73e1, 0px 0px 45px #ed73e1, 0px 0px 35px #ed73e1, 0px 0px 25px #ed73e1, 0px 0px 15px #ed73e1;
 }
 
 .loadpage .loadpage-container .kaomoji .kaomoji2 {
@@ -187,17 +191,31 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   transition: 1.5s;
 }
 
+.loadpage .loadpage-container .kaomoji .kaomoji2:hover {
+  text-shadow: 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0, 0px 0px 600px #35d0f0;
+}
+
 .loadpage .loadpage-container .btn-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 12.5rem;
+  padding: 1rem 2.5rem;
+  margin: 0 0.625rem;
   background-color: #000;
-  min-width: 66.66%;
-  padding: 1rem 0;
-  margin: 0.5rem auto;
-  opacity: 1;
   color: #fbeee4;
   border: 1px solid #fbeee4;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.08125rem;
   text-decoration: none;
   text-transform: uppercase;
   opacity: 0.95;
@@ -205,7 +223,6 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
 
 .loadpage .loadpage-container .btn-main:hover {
   color: #000;
-  background-color: #fbeee4;
 }
 
 a.anchor {
