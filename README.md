@@ -71,7 +71,7 @@ I did design a very simple logo, but only for favicon purposes:
 
 ### Usability Considerations
 #### Accessibility
-I strove to make my website as accessible as possible for people with visual impairments. I tried to keep colour-blindness in mind when I chose my theme colours, and after already leaning towards white-on-black it made it an easy decision for me to make. I tried to keep my remaining color palette at an acceptable degree of contrast for anyone to be able to visually engage with my content. I ensured to have appropriate alt-text for my pictures so that screen readers would be able to accurately describe the picture to the blind or visually impaired users of my website.
+I strove to make my website as accessible as possible for people with visual impairments. I tried to keep colour-blindness in mind when I chose my theme colours, and after already leaning towards white-on-black it made it an easy decision for me to make. I tried to keep my remaining color palette at an acceptable degree of contrast for anyone to be able to visually engage with my content. I ensured to have appropriate alt-text for my pictures so that screen readers would be able to accurately describe the picture to the blind or visually impaired users of my website. I talked to my girlfriend who isn't overly experienced with technology or the web for her opinions on the website. She commented on making it more clear how the sidepanels were initially opened. I implemented the arrows icons on the sidepanels for clarity based on her suggestion.
 
 I also configure my favicon in such a way that any browser or device should be able to access it:
 ![picture](docs/Favicon-1.png)
