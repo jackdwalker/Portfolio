@@ -30,10 +30,10 @@ Desktop Content w/ Sidepanel Open:
 <img src="docs/Desktop-Content-Open.png" width="600" alt="Desktop Loadpage"/>  
 
 Mobile Load Page:  
-<img src="docs/Mobile-Loadpage.png" width="600" alt="Desktop Loadpage"/>  
+<img src="docs/Mobile-Loadpage.png" height="600" alt="Desktop Loadpage"/>  
 
 Mobile Content:  
-<img src="docs/Mobile-Content.png" width="600" alt="Desktop Loadpage"/>  
+<img src="docs/Mobile-Content.png" height="600" alt="Desktop Loadpage"/>  
 
 Tablet format is identical to desktop with some minor formatting changes to font size for readability and container fitting.
 
