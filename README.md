@@ -9,7 +9,7 @@
 The purpose of developing this website was three-fold. Primarily it was made as an assessment piece, showcasing what I had learnt about HTML and CSS, and how I could apply those lessons. Secondly it was created to display my skills, work history, and a little bit about myself to potential employers and anyone else what was interested. Thirdly it was a fun exercise in engaging creative process and infusing a bit of myself in the code I was creating.
 
 ### Functionality/Features
-The website features a responsive mobile-up design, scaling nicely from widths of 320px right through to 2880px. It features easily identifiable (at least I think - but this is a matter of opinion) anchors allowing intuitive site navigation, with smooth scrolling. I wanted to make the site fun to play with and move around, so I implemented a touch of JavaScript (JS) to allow my content panels to slide in and out. When minimised the content panels take little screen real-estate, allowing users to have a better view of the art I used on my website. I also used JS to create a back to top button that will only display itself after the user has scrolled past the page they load on to. Finally I implemented a contact form that will at some stage utilise a PHP or SQL database as a way to store messages. This felt like a safer way to allow users to contact me. I wasn't comfortable openly displaying my email on a public website for security reasons. I used SCSS to style my website in a way that represented me, and in a way that I personally think looks really appealing and fun to navigate. Plus there's the little glowy boys on my front page that will glow when you mouse over them :D
+The website features a responsive mobile-up design, scaling nicely from widths of 320px right through to 2880px. It has metadata in its header to allow the various different web crawlers to access certain pieces of information about my site, to help it show up in search engines. It features easily identifiable (at least I think - but this is a matter of opinion) anchors allowing intuitive site navigation, with smooth scrolling. I wanted to make the site fun to play with and move around, so I implemented a touch of JavaScript (JS) to allow my content panels to slide in and out. When minimised the content panels take little screen real-estate, allowing users to have a better view of the art I used on my website. I also used JS to create a back to top button that will only display itself after the user has scrolled past the page they load on to. Finally I implemented a contact form that will at some stage utilise a PHP or SQL database as a way to store messages. This felt like a safer way to allow users to contact me. I wasn't comfortable openly displaying my email on a public website for security reasons. I used SCSS to style my website in a way that represented me, and in a way that I personally think looks really appealing and fun to navigate. Plus there's the little glowy boys on my front page that will glow when you mouse over them :D
 
 ### Sitemap
 I used a single page design with multiple internal anchors to navigate to my page's contents, and external links to other places users can find me on the Internet.
@@ -69,10 +69,31 @@ I did design a very simple logo, but only for favicon purposes:
 ### Usability Considerations
 #### Accessibility
 I strove to make my website as accessible as possible for people with visual impairments. I tried to keep colour-blindness in mind when I chose my theme colours, and after already leaning towards white-on-black it made it an easy decision for me to make. I tried to keep my remaining color palette at an acceptable degree of contrast for anyone to be able to visually engage with my content. I ensured to have appropriate alt-text for my pictures so that screen readers would be able to accurately describe the picture to the blind or visually impaired users of my website.
+
+I also configure my favicon in such a way that any browser or device should be able to access it:
+![picture](docs/Favicon-1.png)
+![picture](docs/Favicon-2.png)
 #### Performance
 With a very image heavy website, loading speed can be an issue. I tried to compress my images to as small a size as possible without affecting the visual quality of the picture.
+
+My page only uses one font, with three different weights, and very minimal JS so the performance of my website was largely uneffected by these design elements.
+
+In the future I want to implement psuedo-element shadow transitions for the glowing emojis on my load page, as that would significantly reduce the performance overhead of the shadow transition effect they utilise.
+
+#### Performance and Accessibility Audits
+Mid-way through project:
+![picture](docs/Inspector-Audit-Mar-20)
+
+End of project:
+![picture](docs/Inspector-Audit-Final)
+
 ### Challenges
-Changed header format to be the same across all versions because of issues with nav responsiveness and a lack of time to fix it and get everything else done
+I encountered a really large number of time consuming problems throughout this process. A lot of these can be attributed to poor planning, and specificity issues, but some of the other major ones included: 
+* Creating a responsive header with flexbox
+* Creating a responsive contact form with flexbox
+* Parallax issues outside of the desktop version and being unable to convert it to flexbox
+* Maintaining the same HTML base, but requiring one set JS functions in my mobile version, and another on my desktop/tablet version
+* I'm just going to mention specificity again because I wasted countless hours to specificity problems :(
 
 
 ## Details of Planning Process
