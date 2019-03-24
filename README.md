@@ -104,9 +104,41 @@ I came into the bootcamp with a small amount of background knowledge in HTML/CSS
 So I went back to the drawing board and made wireframes detailing how I wanted to restructure my website to work on both mobile and tablet devices. I started from scratch refactoring my desktop CSS into SCSS, and re-writing my whole HTML base for a mobile device and working up from there. 
 
 ### Project Timeline
+- Mar 11: Moodboarding
+- Mar 12-15: Initial desktop site design
+- Mar 18-19: Final touches on first version of desktop site
+- Mar 20: Wireframing and beginning to visualise how to make my website responsive
+- Mar 21: Began the process of building mobile-up and refactoring my CSS into SCSS
+- Mar 22-23: Most of the progress for my second website iteration was completed
+- Mar 24: Documentation (definitely should've done this in advance - my time management sucks) and final touches on website
 
+Image documentation showing Trello progression, Inspector audits, Favicon implementation, etc were created at different stages of the development process. Only the text component of the documentation was done post-development.
 
-### Trello
+### Project Management
+
+I used Trello to dissect my website components into different tasks, and assign myself rough time-frames for completion. My time-frames were pretty out, but I feel I have a better handle on how to time-manage myself in the future now.
+
+[Portfolio Trello Board](https://trello.com/b/AWMZPskp/portfolio)
+
+#### Trello Progress
+
+Start of March 20th:
+![picture](docs/Trello-Mar-20-Start-of-Day.png)
+
+End of March 20th:
+![picture](docs/Trello-Mar-20-End-of-Day.png)
+
+March 21st:
+![picture](docs/Trello-Mar-21.png)
+
+March 22nd:
+![picture](docs/Trello-Mar-22.png)
+
+March 23rd:
+![picture](docs/Trello-Mar-23.png)
+
+End of Project:
+![picture](docs/Trello-End-of-Project.png)
 
 
 ## Short Answer Q & A:
