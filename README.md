@@ -1,6 +1,6 @@
 # Jack Walker Portfolio Project 
 
-[Desktop/Tablet Link](https://jackdwalker.github.io/Portfolio/src/index.html) 
+[Desktop/Tablet Link](https://jackdwalker.github.io/Portfolio/src/index.html)\
 [Mobile Link](https://jackdwalker.github.io/Portfolio/src/mobile.html)  
 [Github Repo Link](https://github.com/jackdwalker/Portfolio) 
 
