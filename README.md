@@ -86,9 +86,11 @@ In the future I want to implement psuedo-element shadow transitions for the glow
 
 #### Performance and Accessibility Audits
 Mid-way through project:  
+  
 <img src="docs/Inspector-Audit-Mar-20.png" width="400" alt="Inspector Audit March 20th"/>
 
 End of project:  
+  
 <img src="docs/Inspector-Audit-Final.png" width="400" alt="Inspector Audit End of Project"/>
 
 ### Challenges
