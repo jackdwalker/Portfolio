@@ -362,17 +362,15 @@ footer .feet .rightalign {
       background-attachment: scroll;
       background-size: cover;
     }
+    
+    .parallaxbox {
+        opacity: 0.9
+    }
 }
 
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
-    }
-}
-
-@media screen and (max-device-width: 1024px) {
-    .parallaxbox {
-        opacity: 0.9
     }
 }
