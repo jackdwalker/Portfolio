@@ -17,12 +17,12 @@ I used a single page design with multiple internal anchors to navigate to my pag
 ![picture](docs/Sitemap.png)
 
 ### Screenshots
-
 Load page w/ header
 Example of content w/ panel closed
 Example of content w/ panel open
 
 ### Target Audience
+This project was first and foremost designed to appeal to potential future employers, other software developers and colleagues, and give them an idea of who I was, and what skills I possess, presenting a bit of my personality in the process. I also wanted to build a page that could showcase what I had learnt so far at the Coder Academy bootcamp to my friends and family. Finally I wanted a website that would strike interest in people who had accidentally navigated to my page, and engage them for at least a little while before they returned to searching for the original page that they were looking for - who knows who might stumble upon your page.
 
 ### Tech Stack
 
