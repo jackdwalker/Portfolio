@@ -145,7 +145,8 @@ End of Project:
 ## Short Answer Q & A:
 
 ### 1. Describe key events that led to the development of the internet from the 1980s to today
-ARPAnet (Advanced Research Projects Agency) goverment network - J.C.R. Licklider - network of computers that could talk to one another > 1971 Ray Thomlinson email @ to tell name and host name apart > Vinton Cerf TCP/IP > 80s scientists used > 90s world wide take off Tim Berners 1991 invented WWW. Erwise 1992 first GUI, Mosiac 1993 popularised
+In 1971 Vinton Cerf developed the Transmission Control Protocol followed by the Internet Protocol allowing computers around the world to interact in a virtual space. Cerf's protocol alongside Ray Thomlinson's 'email' system developed in the same year allowed scientists and government agencies throughout the 1980s to transmit data to one another, but the web didn't really take off until the 1990s. In 1991 Tim Berners invented the World Wide Web, allowing anyone with an internet connection to access his global network. Mosaic was developed in 1993, and was the web browser that popularised surfing the web globally. In 1994 Netscape arrived on the scene, and by 1995 accounted for 90% of internet browser usage. Since then the internet has been utilised for a myriad of services such as education, file hosting, social media, and of course shopping; and surprise, surprise, the first thing ever purchased over the web was pizza.
+
 ### 2. Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
 Each device has IP, connect to ISP (middle man to internet backbone). Servers have domain names because IP addresses aren't exactly easy to memorise. Packets and the candy wrapper. Browsers are used to call on IPs and for server contents based on URL
 ### 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
