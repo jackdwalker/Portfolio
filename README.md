@@ -59,7 +59,7 @@ Mobile Wireframe:\
 Tablet Wireframe:\
 ![picture](docs/Tablet-Wireframe.png)
 
-Desktop Wireframe:\  
+Desktop Wireframe:  
 ![picture](docs/Desktop-Wireframe.png)
 
 ### Personal Logo
