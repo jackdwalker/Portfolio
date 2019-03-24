@@ -170,11 +170,6 @@ header {
                 text-transform: uppercase;
                 opacity: 0.95;
             }
-
-            .btn-parent:hover {
-                color: #000;
-                background-color: #fbeee4;
-            }
         }   
     }
 }
@@ -182,7 +177,7 @@ header {
 a.anchor {
     position: relative; 
     visibility: hidden;
-    top: -4rem;
+    top: -4.1rem;
 }
 
 .content {

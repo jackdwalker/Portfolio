@@ -206,15 +206,10 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
   opacity: 0.95;
 }
 
-.loadpage .loadpage-container .btn-parent .btn-parent:hover {
-  color: #000;
-  background-color: #fbeee4;
-}
-
 a.anchor {
   position: relative;
   visibility: hidden;
-  top: -4rem;
+  top: -4.1rem;
 }
 
 .content {
