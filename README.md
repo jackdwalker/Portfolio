@@ -53,17 +53,17 @@ My content sections were originally just images with semi-transparent panels (so
 I wanted users to be able to contact me, but didn't want to publically expose my email address on Internet, so I created a contact form. Leaving it publically available would leave me vulnerable to spamming attacks, and potentially allow to people brute force my logins to various websites having half of the required credentials (i.e. only needing to guess my password). The contact form solves this problem by allowing users to send me messages with their contact details, and storing these messages in a PHP database. People might be able to use this to DoS my website, or use cross site scripting attacks if I don't implement the PHP code properly, but I still feel like it is the most secure design decision I could make given my options.
 
 ### Wireframes
-Mobile Wireframe:\
+Mobile Wireframe:  
 ![picture](docs/Mobile-Wireframe.png)
 
-Tablet Wireframe:\
+Tablet Wireframe:  
 ![picture](docs/Tablet-Wireframe.png)
 
 Desktop Wireframe:  
 ![picture](docs/Desktop-Wireframe.png)
 
 ### Personal Logo
-I did design a very simple logo, but only for favicon purposes:\
+I did design a very simple logo, but only for favicon purposes:  
 <img src="src/imgs/Logoblack.png" width="400" alt="Jack logo"/>
 
 ### Usability Considerations
