@@ -366,11 +366,13 @@ footer .feet .rightalign {
     .parallaxbox {
         opacity: 0.9
     }
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
 }
 
 @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+    
 }
