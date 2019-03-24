@@ -39,13 +39,13 @@ In the future I plan to implement a PHP database in the back-end so that I can t
 ### Moodboard
 Up until around a year ago my best friend and I were reblogging posts on Tumblr for a music project which formed somewhat of a moodboard for all of the things that interest us. We shared a very similar taste, so I used that Tumblr page to inspire my website design colour palette, style, and art direction.
 
-[Umbra Lookbook Tumblr](https://umbralookbook.tumblr.com/)
+![Umbra Lookbook Tumblr](https://umbralookbook.tumblr.com/)
 
 ### The Design Process
 
 Honestly my design process was pretty awful, and it's shown in how messy my workflow has been for this project.
 
-I came in with a bit of background in HTML/CSS and so I started working on my portfolio project from the beginning of HTML/CSS portion of the course. 
+I came in with a small amount of background knowledge in HTML/CSS and so I started working on my portfolio project quite early on 
 
 ### Wireframes
 
