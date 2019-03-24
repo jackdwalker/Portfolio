@@ -1,6 +1,7 @@
 # Jack Walker Portfolio Project 
 
-[Website Link](https://jackdwalker.github.io/Portfolio/src/)   
+[Desktop/Tablet Link](https://jackdwalker.github.io/Portfolio/src/index.html) 
+[Mobile Link](https://jackdwalker.github.io/Portfolio/src/mobile.html)  
 [Github Repo Link](https://github.com/jackdwalker/Portfolio) 
 
 ## My Website 
@@ -9,7 +10,9 @@
 The purpose of developing this website was three-fold. Primarily it was made as an assessment piece, showcasing what I had learnt about HTML and CSS, and how I could apply those lessons. Secondly it was created to display my skills, work history, and a little bit about myself to potential employers and anyone else what was interested. Thirdly it was a fun exercise in engaging creative process and infusing a bit of myself in the code I was creating.
 
 ### Functionality/Features
-The website features a responsive mobile-up design, scaling nicely from widths of 320px right through to 2880px. It has metadata in its header to allow the various different web crawlers to access certain pieces of information about my site, to help it show up in search engines. It features easily identifiable (at least I think - but this is a matter of opinion) anchors allowing intuitive site navigation, with smooth scrolling. I wanted to make the site fun to play with and move around, so I implemented a touch of JavaScript (JS) to allow my content panels to slide in and out. When minimised the content panels take little screen real-estate, allowing users to have a better view of the art I used on my website. I also used JS to create a back to top button that will only display itself after the user has scrolled past the page they load on to. Finally I implemented a contact form that will at some stage utilise a PHP or SQL database as a way to store messages. This felt like a safer way to allow users to contact me. I wasn't comfortable openly displaying my email on a public website for security reasons. I used SCSS to style my website in a way that represented me, and in a way that I personally think looks really appealing and fun to navigate. Plus there's the little glowy boys on my front page that will glow when you mouse over them :D
+The website was meant to feature a responsive mobile-up design, scaling nicely from widths of 320px right through to 2880px. Unfortunately, due to a poor design process, and the refactoring of my static, non-responsive desktop/tablet version of my website too long to complete in time for the assessment deadline. I instead have a partially completed responsive design, which is the mobile.html website. This website scales for all phone sizes from 320px in width to 414px. My desktop version renders nicely from retina displays (2880px width) down the the size of a larger tablet (1024px) - although the footer seems to have disappeared in the most recent iteration for some unknown reason.
+
+It has metadata in its header to allow the various different web crawlers to access certain pieces of information about my site, to help it show up in search engines. It features easily identifiable (at least I think - but this is a matter of opinion) anchors allowing intuitive site navigation, with smooth scrolling. I wanted to make the site fun to play with and move around, so I implemented a touch of JavaScript (JS) to allow my content panels to slide in and out. When minimised the content panels take little screen real-estate, allowing users to have a better view of the art I used on my website. I also used JS to create a back to top button that will only display itself after the user has scrolled past the page they load on to. Finally I implemented a contact form that will at some stage utilise a PHP or SQL database as a way to store messages. This felt like a safer way to allow users to contact me. I wasn't comfortable openly displaying my email on a public website for security reasons. I used SCSS to style my website in a way that represented me, and in a way that I personally think looks really appealing and fun to navigate. Plus there's the little glowy boys on my front page that will glow when you mouse over them :D
 
 ### Sitemap
 I used a single page design with multiple internal anchors to navigate to my page's contents, and external links to other places users can find me on the Internet.
@@ -94,10 +97,11 @@ I encountered a really large number of time consuming problems throughout this p
 * Creating a responsive contact form with flexbox
 * Parallax issues outside of the desktop version and being unable to convert it to flexbox
 * Maintaining the same HTML base, but requiring one set JS functions in my mobile version, and another on my desktop/tablet version
+* Generally refactoring due to poor time-management
 * I'm just going to mention specificity again because I wasted countless hours to specificity problems :(
 
 ## Details of Planning Process
-Honestly my planning process was pretty awful, and it's shown in how messy my workflow has been for this project.
+Honestly my planning process was pretty awful, and it's shown in how messy my workflow has been for this project, and my inability to put a responsive website inside of one html file.
 
 I came into the bootcamp with a small amount of background knowledge in HTML/CSS. So when we progressed to the HTML/CSS section of the course I was eager to get a head-start hoping to create a really cool website for myself, knowing that this was something I would be using to represent myself out in the real world. I drew some inspiration from my Tumblr page and off I went. I ended up with a pretty decent looking desktop webpage, that had absolutely zero responsiveness that didn't utilise SCSS whatsoever. 
 
