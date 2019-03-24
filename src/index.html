@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Default Emmet html head input-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Providing web crawler directives for how to handle page -->
+    <meta name="robots" content="index,follow">
+    <!-- Providing meta description which is a site snippet to show in search engine results especially when part of snippet is searched -->
+    <meta name="description" content="Jack Walker – Full stack web developer in training @ Coder Academy Brisbane. Ruby on Rails & MERN stack. Focused on creating simple, innovative, and accessible web-based solutions. Deep roots in fashion and music.">
+    <!-- Creating Twitter and Open Graph meta data for web crawler caching-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jack Walker">
+    <meta name="twitter:description" content="Jack Walker – Full stack web developer in training @ Coder Academy Brisbane. Ruby on Rails & MERN stack. Focused on creating simple, innovative, and accessible web-based solutions. Deep roots in fashion and music.">
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1102345861969805313/fe5irpzv_400x400.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Jack Walker">
+    <meta property="og:description" content="Jack Walker – Full stack web developer in training @ Coder Academy Brisbane. Ruby on Rails & MERN stack. Focused on creating simple, innovative, and accessible web-based solutions. Deep roots in fashion and music.">
+    <meta property="og:url" content="https://jackdwalker.github.io/Portfolio/">
+    <meta property="og:image" content="https://pbs.twimg.com/profile_images/1102345861969805313/fe5irpzv_400x400.png">
+    <meta property="og:type" content="website">
+    <!-- Favicon implementation, compatible with all browser and phone types-->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="imgs/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+    <link rel="manifest" href="imgs/site.webmanifest">
+    <link rel="mask-icon" href="imgs/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <!-- Page title-->
+    <title>J A C K - W A L K E R</title>
+    <!-- Font import -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400" rel="stylesheet">
+   <!-- Calling in the Font Awesome CDN so I can use their icons, specifically to style my back to top button -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Stylesheet import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/backtotop.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <!-- Call JS scripts -->
+    <script src="js/backtotop.js"></script>
+    <script src="js/sidebar.js"></script>
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="hvr-bob"><div class="fas fa-angle-up hvr-icon"></div></button>
+
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="./index.html">HOME</a>  </li>
+                <li> <a href="#contact">CONTACT</a> </li>
+                <li> <a href="https://medium.com/@jackdwalker" target="_blank" title="Link to Medium Blog"> BLOG </a></li>
+                <li> <a href="https://twitter.com/JackWalkerCA" target="_blank"><img class="twitter_resize"
+                            src="./imgs/Twitter.png" alt="Twitter Logo"> </a></li>
+                <li> <a href="https://www.linkedin.com/in/jack-walker-640a95181/" target="_blank"><img
+                            class="linkedin_resize" src="./imgs/Linkedin.png" alt="LinkedIn Logo"></a></li>
+                <li> <a href="https://umbralookbook.tumblr.com" target="_blank"><img class="tumblr_resize"
+                            src="./imgs/tumblr.png" alt="Tumblr Logo"></a></li>
+                <li> <a href="https://github.com/jackdwalker/" target="_blank"><img class="github_resize"
+                            src="./imgs/daftpunktocat-thomas.gif" alt="Github Logo - Octocat"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <div class="container">
+                <!-- <img class="imgcropper" src="./imgs/Logo_black_bigger.png"> -->
+                <h1>JACK WALKER</h1>
+                <h3><span class="kaomoji1">⋌( ✖ ﹏ ✖ )⋋</span><span class="kaomoji2">⋌( ✖ ﹏ ✖ )⋋</span><span class="kaomoji1">⋌( ✖ ﹏ ✖ )⋋</span></h3>
+                <a href="#professional" class="btn-main hvr-bounce-to-right"> PROFESSIONAL </a>
+                <a href="#cultural" class="btn-main hvr-bounce-to-top"> CULTURAL </a>
+                <a href="#personal" class="btn-main hvr-bounce-to-left"> PERSONAL </a>
+            </div>
+        </div>
+    </main>
+
+    <div class="parallax">  
+        <div class="bg-img1 left">
+            <a id="professional" class="anchor"></a>
+            <div href="javascript:void(0)" id="mySidepanel1" class="sidepanel" onclick="closeNav('mySidepanel1', 'myOpenbtn1')">
+                <span class="parallaxtitle">PROFESSIONAL</span>
+                <br>
+                <span class="parallaxtext">Full-Stack Developer in training @ Coder Academy Brisbane</span>
+            </div>
+            <button id="myOpenbtn1" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel1', 'myOpenbtn1')"><i class="fa fa-angle-double-up bottom" aria-hidden="true"></i>PROFESSIONAL<i class="fa fa-angle-double-up top" aria-hidden="true"></i></button> 
+        </div>
+        <div class="bg-img2 right">
+            <a id="cultural" class="anchor"></a>
+            <div href="javascript:void(0)" id="mySidepanel2" class="sidepanel" onclick="closeNav('mySidepanel2', 'myOpenbtn2')">
+                <span class="parallaxtitle">CULTURAL</span>
+                <br>
+                <span class="parallaxtext">~~ ♪♪♪♪ // Fashion ~~</span>
+                <br>
+                <img class="imgcropper DJ" src="./imgs/DJ.jpg" alt="Picture of Jack">
+            </div>
+            <button id="myOpenbtn2" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel2', 'myOpenbtn2')"><i class="fa fa-angle-double-up bottom" aria-hidden="true"></i>CULTURAL<i class="fa fa-angle-double-up top" aria-hidden="true"></i></button>
+        </div>
+        <div class="bg-img3 left">
+            <a id="personal" class="anchor"></a>
+            <div href="javascript:void(0)" id="mySidepanel3" class="sidepanel" onclick="closeNav('mySidepanel3', 'myOpenbtn3')">
+                <span class="parallaxtitle">PERSONAL</span>
+                <br>
+                <img class="imgcropper profile" src="./imgs/Profile BW.jpg" alt="Picture of Jack">
+            </div>
+            <button id="myOpenbtn3" class="openbtn hvr-bounce-to-top" onclick="openNav('mySidepanel3', 'myOpenbtn3')"><i class="fa fa-angle-double-up top" aria-hidden="true"></i>PERSONAL<i class="fa fa-angle-double-up bottom" aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+    <div class="formcontainer">
+        <a id="contact" class="anchor"></a>
+        <div class="parallaxtitle">CONTACT ME</div>
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="NAME">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>  
+                <div class="col-75">
+                    <input type="text" id="subject" name="subject" placeholder="SUBJECT">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="message" name="message" placeholder="WHAT'S UP? REMEMBER TO LEAVE ME SOME CONTACT DETAILS IF YOU WANT A REPLY (:" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="feet">
+            <span>&copy; JWRC 2019</span>
+            <span class="rightalign">Brisbane, Queensland, Australia</span>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
