@@ -194,15 +194,15 @@ a.anchor {
 }
 
 .bg-img1 { 
-    background-image: url("../imgs/IMG13.jpg");
+    background-image: url("../imgs/IMG1.jpg");
 }
 
 .bg-img2 { 
-    background-image: url("../imgs/IMG10.jpg");
+    background-image: url("../imgs/IMG2.jpg");
 }
 
 .bg-img3 { 
-    background-image: url("../imgs/IMG12.jpg");
+    background-image: url("../imgs/IMG3.jpg");
 }
 
 .parallax {
@@ -239,15 +239,15 @@ a.anchor {
     display: inline-block;
     width: 75%;
     color: #fbeee4;
-    margin: 50px 0px;
+    margin: 20px 0px;
     font-family: 'Work Sans';
     font-weight: 200;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .imgcropper {
-    height: 250px;
-    width: 250px;
+    height: 210px;
+    width: 210px;
     display: inline;
     margin: 0 auto;
     position: relative;
