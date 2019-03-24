@@ -73,6 +73,7 @@ I strove to make my website as accessible as possible for people with visual imp
 I also configure my favicon in such a way that any browser or device should be able to access it:
 ![picture](docs/Favicon-1.png)
 ![picture](docs/Favicon-2.png)
+
 #### Performance
 With a very image heavy website, loading speed can be an issue. I tried to compress my images to as small a size as possible without affecting the visual quality of the picture.
 
@@ -95,13 +96,12 @@ I encountered a really large number of time consuming problems throughout this p
 * Maintaining the same HTML base, but requiring one set JS functions in my mobile version, and another on my desktop/tablet version
 * I'm just going to mention specificity again because I wasted countless hours to specificity problems :(
 
-
 ## Details of Planning Process
 Honestly my planning process was pretty awful, and it's shown in how messy my workflow has been for this project.
 
 I came into the bootcamp with a small amount of background knowledge in HTML/CSS. So when we progressed to the HTML/CSS section of the course I was eager to get a head-start hoping to create a really cool website for myself, knowing that this was something I would be using to represent myself out in the real world. I drew some inspiration from my Tumblr page and off I went. I ended up with a pretty decent looking desktop webpage, that had absolutely zero responsiveness that didn't utilise SCSS whatsoever. 
 
-So I went back to the drawing board and made wireframes detailing how I wanted to restructure my website to work on both mobile and tablet devices. I started from scratch refactoring many of my styles into CSS, re-writing my whole HTML base for a mobile device and worked up from there. 
+So I went back to the drawing board and made wireframes detailing how I wanted to restructure my website to work on both mobile and tablet devices. I started from scratch refactoring my desktop CSS into SCSS, and re-writing my whole HTML base for a mobile device and working up from there. 
 
 ### Project Timeline
 
