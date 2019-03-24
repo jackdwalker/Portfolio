@@ -362,6 +362,10 @@ footer .feet .rightalign {
       background-attachment: scroll;
       background-size: cover;
     }
+
+    .container h1 {
+        font-size: 48px;
+    }
     
     .parallaxbox {
         opacity: 0.9
