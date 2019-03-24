@@ -39,14 +39,14 @@ In the future I plan to implement a PHP database in the back-end so that I can t
 ### Moodboard
 Up until around a year ago my best friend and I were reblogging posts on Tumblr for a music project which formed somewhat of a moodboard for all of the things that interest us. We shared a very similar taste, so I used that Tumblr page to inspire my website design colour palette, style, and art direction.
 
-![Umbra Lookbook Tumblr](https://umbralookbook.tumblr.com/)
+[Umbra Lookbook Tumblr](https://umbralookbook.tumblr.com/)
 
 ### The Design Process
 After taking inspiration from my moodboard I set out to create a minimal white-on-black website, with heavy use of imagery to really help showcase my personality.
 
 I didn't have a set idea of how I wanted my website to look - mostly due to a lack of planning or forethough as I discuss in the details of my planning process below - so I implemented different design elements as they came to me.
 
-Two similar ideas went into the design of my nav bar. I wanted users to be able to access the home page (as that was where they would navigate to the different pieces of content), and the contact form at any time. I also wanted users to be able to access my different social media/Github redirects at their leisure if for whatever reason a piece of content inspired thme to do so.
+Two similar ideas went into the design of my nav bar. I wanted users to be able to access the home page (as that was where they would navigate to the different pieces of content), and the contact form at any time. I also wanted users to be able to access my different social media/Github redirects at their leisure if for whatever reason a piece of content inspired thme to do so. I originally intended for the mobile version to have collapsible internal anchors, that would move into a hamburger for mobile sized devices, but I didn't end up having time to implement this, and it still functions fine in the current iteration. This is something I would like to change in the future though.
 
 My content sections were originally just images with semi-transparent panels (so users could see the art featured on my website if they weren't focusing on the content) sitting on top of them, holding the body of my content. This was fine, but I wanted something that looked more engaging. On the same day I was shown a past student's webpage (I think it was Kieran?) who utilised parallax styling on his images. I thought it looked super cool, so found a way to implement that for the different content sections of my website. The final step in the design of my content section was to push the content into collapsible sidebars that would open and close upon clicking. The main design paradigm I had in mind during all of these different stages was allowing the user to look at the content on my website that engaged them, in a way that didn't clutter the screen space. If that was the content body's text, they should be able to see that content, if they wanted to only see the art, then they should be able to push the content away. I tried to implement this paradigm in an intuitive way that was accessible to anyone.
 
