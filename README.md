@@ -85,10 +85,10 @@ My page only uses one font, with three different weights, and very minimal JS so
 In the future I want to implement psuedo-element shadow transitions for the glowing emojis on my load page, as that would significantly reduce the performance overhead of the shadow transition effect they utilise.
 
 #### Performance and Accessibility Audits
-Mid-way through project:
+Mid-way through project:  
 <img src="docs/Inspector-Audit-Mar-20.png" width="400" alt="Inspector Audit March 20th"/>
 
-End of project:
+End of project:  
 <img src="docs/Inspector-Audit-Final.png" width="400" alt="Inspector Audit End of Project"/>
 
 ### Challenges
