@@ -207,14 +207,14 @@ header nav .topnav a:link, header nav .topnav a:hover, header nav .topnav a:visi
 }
 
 .loadpage .loadpage-container .btn-parent .btn-child:active, .loadpage .loadpage-container .btn-parent btn-child:focus {
-  background-colour: #000;
+  background-color: #000;
   color: #fbeee4;
 }
 
 a.anchor {
   position: relative;
   visibility: hidden;
-  top: -4.1rem;
+  top: -4.5rem;
 }
 
 .content {
