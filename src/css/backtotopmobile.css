@@ -4,7 +4,7 @@
   position: fixed;
   /* Fixed/sticky position */
   top: 5rem;
-  left: 45vw;
+  left: 40vw;
   z-index: 99;
   /* Make sure it does not overlap */
   cursor: pointer;

@@ -170,6 +170,11 @@ header {
                 text-transform: uppercase;
                 opacity: 0.95;
             }
+
+            .btn-child:active, btn-child:focus {
+                background-colour: #000;
+                color: #fbeee4;
+            }
         }   
     }
 }
