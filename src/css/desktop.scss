@@ -227,16 +227,17 @@ a.anchor {
         font-family: 'Work Sans', Arial, Helvetica, sans-serif;
         font-weight: 200;
         opacity: 0.5;
+        transition: 0.75s;
 
         .title {
-            justify-self: center;
+            display: inline-block;
             height: 2rem;
             letter-spacing: 0.75rem;
             border-bottom: 1px solid #fbeee4;
         }
 
         .content-text {
-            align-self: flex-start;
+            display: inline-block;
             padding-top: 1rem;
         }
 
@@ -252,6 +253,10 @@ a.anchor {
             display: none;
         }
     }  
+
+    .content-body:hover {
+        opacity: 0.9;
+    }
 }
 
 .form-container {

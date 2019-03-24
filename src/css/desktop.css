@@ -267,19 +267,19 @@ a.anchor {
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-weight: 200;
   opacity: 0.5;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
 }
 
 .content .content-body .title {
-  -ms-grid-column-align: center;
-      justify-self: center;
+  display: inline-block;
   height: 2rem;
   letter-spacing: 0.75rem;
   border-bottom: 1px solid #fbeee4;
 }
 
 .content .content-body .content-text {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  display: inline-block;
   padding-top: 1rem;
 }
 
@@ -293,6 +293,10 @@ a.anchor {
 
 .content .content-body .openbtn {
   display: none;
+}
+
+.content .content-body:hover {
+  opacity: 0.9;
 }
 
 .form-container {
