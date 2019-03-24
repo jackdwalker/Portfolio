@@ -14,7 +14,7 @@ The website features a responsive mobile-up design, scaling nicely from widths o
 ### Sitemap
 I used a single page design with multiple internal anchors to navigate to my page's contents, and external links to other places users can find me on the Internet.
 
-<img src="docs/Sitemap.png" width="600" alt="Jack logo" style="text-align: center"/>
+<img src="docs/Sitemap.png" width="600" alt="Jack logo"/>
 
 ### Screenshots
 Load page w/ header - desktop
@@ -64,7 +64,7 @@ Desktop Wireframe:
 
 ### Personal Logo
 I did design a very simple logo, but only for favicon purposes:
-<img src="src/imgs/Logoblack.png" width="400" alt="Jack logo" style="text-align: center"/>
+<img src="src/imgs/Logoblack.png" width="400" alt="Jack logo"/>
 
 ### Usability Considerations
 #### Accessibility
@@ -148,5 +148,7 @@ In 1971 Vinton Cerf developed the Transmission Control Protocol followed by the 
 
 ### 2. Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
 Each device has IP, connect to ISP (middle man to internet backbone). Servers have domain names because IP addresses aren't exactly easy to memorise. Packets and the candy wrapper. Browsers are used to call on IPs and for server contents based on URL
+
+Every device we own has an Internet Protocal (IP) address; from our smartphones to laptops, even our smart TVs have an IP address.
 
 ### 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
