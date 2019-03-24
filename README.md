@@ -83,10 +83,10 @@ In the future I want to implement psuedo-element shadow transitions for the glow
 
 #### Performance and Accessibility Audits
 Mid-way through project:
-![picture](docs/Inspector-Audit-Mar-20)
+![picture](docs/Inspector-Audit-Mar-20.png)
 
 End of project:
-![picture](docs/Inspector-Audit-Final)
+![picture](docs/Inspector-Audit-Final.png)
 
 ### Challenges
 I encountered a really large number of time consuming problems throughout this process. A lot of these can be attributed to poor planning, and specificity issues, but some of the other major ones included: 
@@ -104,6 +104,7 @@ I came into the bootcamp with a small amount of background knowledge in HTML/CSS
 So I went back to the drawing board and made wireframes detailing how I wanted to restructure my website to work on both mobile and tablet devices. I started from scratch refactoring my desktop CSS into SCSS, and re-writing my whole HTML base for a mobile device and working up from there. 
 
 ### Project Timeline
+
 
 ### Trello
 
