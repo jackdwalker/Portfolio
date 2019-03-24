@@ -42,10 +42,7 @@ Up until around a year ago my best friend and I were reblogging posts on Tumblr 
 ![Umbra Lookbook Tumblr](https://umbralookbook.tumblr.com/)
 
 ### The Design Process
-
-Honestly my design process was pretty awful, and it's shown in how messy my workflow has been for this project.
-
-I came in with a small amount of background knowledge in HTML/CSS and so I started working on my portfolio project quite early on 
+After taking inspiration from my moodboard I set out to create a minimal white-on-black website, with heavy use of imagery to really help showcase my personality.
 
 ### Wireframes
 
@@ -60,8 +57,13 @@ Changed header format to be the same across all versions because of issues with 
 
 
 ## Details of Planning Process
+Honestly my planning process was pretty awful, and it's shown in how messy my workflow has been for this project.
 
-### Project Plan
+I came into the bootcamp with a small amount of background knowledge in HTML/CSS. So when we progressed to the HTML/CSS section of the course I was eager to get a head-start hoping to create a really cool website for myself, knowing that this was something I would be using to represent myself out in the real world. I drew some inspiration from my Tumblr page and off I went. I ended up with a pretty decent looking desktop webpage, that had absolutely zero responsiveness that didn't utilise SCSS whatsoever. 
+
+So I went back to the drawing board and made wireframes detailing how I wanted to restructure my website to work on both mobile and tablet devices. I started from scratch refactoring many of my styles into CSS, re-writing my whole HTML base for a mobile device and worked up from there. 
+
+### Project Timeline
 
 ### Trello
 
