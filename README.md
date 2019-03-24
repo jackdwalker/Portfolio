@@ -64,7 +64,8 @@ Desktop Wireframe:
 
 ### Personal Logo
 I did design a very simple logo, but only for favicon purposes:
-![picture](src/imgs/Logoblack.png)
+<!-- ![picture](src/imgs/Logoblack.png) -->
+<img src="src/imgs/Logoblack.png" width="400" align="center" alt="Jack logo"/>
 
 ### Usability Considerations
 #### Accessibility
@@ -144,5 +145,7 @@ End of Project:
 ## Short Answer Q & A:
 
 ### 1. Describe key events that led to the development of the internet from the 1980s to today
+ARPAnet (Advanced Research Projects Agency) goverment network - J.C.R. Licklider - network of computers that could talk to one another > 1971 Ray Thomlinson email @ to tell name and host name apart > Vinton Cerf TCP/IP > 80s scientists used > 90s world wide take off Tim Berners 1991 invented WWW. Erwise 1992 first GUI, Mosiac 1993 popularised
 ### 2. Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
+Each device has IP, connect to ISP (middle man to internet backbone). Servers have domain names because IP addresses aren't exactly easy to memorise. Packets and the candy wrapper. Browsers are used to call on IPs and for server contents based on URL
 ### 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
