@@ -142,15 +142,20 @@ header nav .topnav a {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: 17.5rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   text-align: center;
   color: #fbeee4;
 }
 
 .loadpage .loadpage-container h1 {
   margin: 0 auto;
+  padding-bottom: 2rem;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   letter-spacing: 1rem;
   font-weight: 300;
@@ -167,6 +172,7 @@ header nav .topnav a {
           flex-direction: row;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-size: 2rem;
+  padding-bottom: 2rem;
   margin: 3rem;
   opacity: 0.95;
 }
@@ -208,7 +214,6 @@ header nav .topnav a {
           justify-content: center;
   background-color: #000;
   color: #fbeee4;
-  border: 1px solid #fbeee4;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 1.125rem;
@@ -222,6 +227,7 @@ header nav .topnav a {
   width: 12.5rem;
   padding: 1rem 2.5rem;
   margin: 0 0.625rem;
+  border: 1px solid #fbeee4;
 }
 
 .loadpage .loadpage-container .btn-parent .btn-child:hover {
@@ -231,23 +237,20 @@ header nav .topnav a {
 a.anchor {
   position: relative;
   visibility: hidden;
-  top: -4rem;
+  top: -5rem;
 }
 
 .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  text-align: center;
+  display: block;
 }
 
 .content .bg-img-1 img, .content .bg-img-2 img, .content .bg-img-3 img {
-  height: 100%;
-  width: 100%;
+  display: block;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content .bg-img-4 img {
@@ -255,24 +258,15 @@ a.anchor {
 }
 
 .content .content-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  display: inline-block;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #000;
-  height: auto;
-  width: auto;
+  width: 50%;
   padding: 1rem 2rem;
   color: #fbeee4;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-weight: 200;
+  opacity: 0.5;
 }
 
 .content .content-body .title {
