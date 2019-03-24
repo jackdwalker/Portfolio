@@ -379,3 +379,11 @@ footer .feet .rightalign {
         height: 91vh;
     }
 }
+
+@media only screen and (max-device-width: 980px) {
+    .container h1 {
+        width: auto;
+        font-size: 40px;
+        letter-spacing: 20px;
+    }
+}
