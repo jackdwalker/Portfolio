@@ -53,13 +53,13 @@ My content sections were originally just images with semi-transparent panels (so
 I wanted users to be able to contact me, but didn't want to publically expose my email address on Internet, so I created a contact form. Leaving it publically available would leave me vulnerable to spamming attacks, and potentially allow to people brute force my logins to various websites having half of the required credentials (i.e. only needing to guess my password). The contact form solves this problem by allowing users to send me messages with their contact details, and storing these messages in a PHP database. People might be able to use this to DoS my website, or use cross site scripting attacks if I don't implement the PHP code properly, but I still feel like it is the most secure design decision I could make given my options.
 
 ### Wireframes
-Mobile Wireframe:  
+Mobile Wireframe:\
 ![picture](docs/Mobile-Wireframe.png)
 
-Tablet Wireframe:  
+Tablet Wireframe:\
 ![picture](docs/Tablet-Wireframe.png)
 
-Desktop Wireframe:  
+Desktop Wireframe:\  
 ![picture](docs/Desktop-Wireframe.png)
 
 ### Personal Logo
@@ -70,7 +70,7 @@ I did design a very simple logo, but only for favicon purposes:
 #### Accessibility
 I strove to make my website as accessible as possible for people with visual impairments. I tried to keep colour-blindness in mind when I chose my theme colours, and after already leaning towards white-on-black it made it an easy decision for me to make. I tried to keep my remaining color palette at an acceptable degree of contrast for anyone to be able to visually engage with my content. I ensured to have appropriate alt-text for my pictures so that screen readers would be able to accurately describe the picture to the blind or visually impaired users of my website.
 #### Performance
-
+With a very image heavy website, loading speed can be an issue. I tried to compress my images to as small a size as possible without affecting the visual quality of the picture.
 ### Challenges
 Changed header format to be the same across all versions because of issues with nav responsiveness and a lack of time to fix it and get everything else done
 
