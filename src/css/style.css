@@ -358,9 +358,8 @@ footer .feet .rightalign {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .jumbotron .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
-      background-size: cover;
+    .jumbotron {
+        height: 68vh;
     }
 
     .container h1 {
