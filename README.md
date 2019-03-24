@@ -68,7 +68,7 @@ I did design a very simple logo, but only for favicon purposes:
 
 ### Usability Considerations
 #### Accessibility
-I wanted my website to be accessible 
+I strove to make my website as accessible as possible for people with visual impairments. I tried to keep colour-blindness in mind when I chose my theme colours, and after already leaning towards white-on-black it made it an easy decision for me to make. I tried to keep my remaining color palette at an acceptable degree of contrast for anyone to be able to visually engage with my content. I ensured to have appropriate alt-text for my pictures so that screen readers would be able to accurately describe the picture to the blind or visually impaired users of my website.
 #### Performance
 
 ### Challenges
