@@ -18,6 +18,10 @@ I used a single page design with multiple internal anchors to navigate to my pag
 
 ### Screenshots
 
+Load page w/ header
+Example of content w/ panel closed
+Example of content w/ panel open
+
 ### Target Audience
 
 ### Tech Stack
