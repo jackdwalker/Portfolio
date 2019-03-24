@@ -370,3 +370,9 @@ footer .feet .rightalign {
       margin-top: 0;
     }
 }
+
+@media screen and (max-device-width: 1024px) {
+    .parallaxbox {
+        opacity: 0.9
+    }
+}
