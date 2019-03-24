@@ -83,10 +83,10 @@ In the future I want to implement psuedo-element shadow transitions for the glow
 
 #### Performance and Accessibility Audits
 Mid-way through project:
-![picture](docs/Inspector-Audit-Mar-20.png)
+<img src="docs/Inspector-Audit-Mar-20.png" width="400" alt="Inspector Audit March 20th"/>
 
 End of project:
-![picture](docs/Inspector-Audit-Final.png)
+<img src="docs/Inspector-Audit-Final.png" width="400" alt="Inspector Audit End of Project"/>
 
 ### Challenges
 I encountered a really large number of time consuming problems throughout this process. A lot of these can be attributed to poor planning, and specificity issues, but some of the other major ones included: 
