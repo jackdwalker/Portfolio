@@ -178,7 +178,7 @@ a.anchor {
 }
 
 .bg-img1, .bg-img2, .bg-img3, .bg-img4 { 
-    min-height: 850px;
+    min-height: 60vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
